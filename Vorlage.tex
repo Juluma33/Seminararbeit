@@ -3,40 +3,64 @@
 \usepackage[ngerman]{babel}
 \usepackage{graphicx}
 \usepackage{eso-pic}
-\usepackage{times}
 \usepackage{graphicx}
-%\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
 
+\usepackage[left=3cm, right=5cm, top=1.5cm, bottom=1.5cm]{geometry}
+\onehalfspacing
+
+\usepackage{fontspec}
+\setmainfont{Arial}
 
 \author{}
-\title{\huge{Seminarfach: "Berge"}\\\quad\\\quad\\\Huge{Exposé zum Verfassen einer\\wissenschaftlichen Arbeit}}
+\title{{\fontsize{26pt}{30pt}\selectfont Seminarfach} \\[3cm] {\fontsize{30pt}{40}\selectfont Exposé}}
 \date{}
 
 
-\newcommand\BackgroundPic{
+% Commands for the pages with background
+\newcommand{\BackgroundImageFile}{Background.png}
+
+\newcommand{\StartBackground}{
+\newgeometry{top=5cm,bottom=1.5cm,left=4cm,right=2cm}
+\AddToShipoutPictureBG*{
 \put(0,0){
 \parbox[b][\paperheight]{\paperwidth}{
 \vfill
 \centering
-\includegraphics[width=\paperwidth,height=\paperheight]{Background.png}
-\vfill}}}
+\includegraphics[width=\paperwidth,height=\paperheight]{\BackgroundImageFile}%
+\vfill
+}}}}
+
+\newcommand{\StopBackground}{\newpage\restoregeometry\ClearShipoutPictureBG}
 
 
+\pagestyle{empty}
+\pagenumbering{gobble}
 
 
-
+% titlepage
 \begin{document}
-
-\AddToShipoutPicture*{\BackgroundPic}
-\thispagestyle{empty}
+\StartBackground
 
 \maketitle
-\textbf{Thema der Arbeit:}\\
-\textbf{Verfasser:}\\
-\textbf{Fachlehrkraft:}\\
+\vspace{6cm}
+\begin{table}[h!]
+    \renewcommand{\arraystretch}{3}
+    \begin{tabularx}{\textwidth}{>{\centering\arraybackslash}l
+                                 >{\raggedright\arraybackslash}X}
+        \textbf{Thema:}&Entstehungsmechanismen und strukturelle Merkmale von Zentralbergen in Impaktkratern, Vulkanen und Äquatorialkämmen im Sonnensystem\\
+        \textbf{Verfasser:}&\\
+        \textbf{Fachlehrkraft:}& (ROP)
+        \end{tabularx}
+    \label{Grade der Knoten}
+\end{table}
 
-\newpage
-\AddToShipoutPicture*{}
+
+\StopBackground
+% end of titlepage
+
 
 
 

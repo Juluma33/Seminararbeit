@@ -3,10 +3,9 @@
 \usepackage[ngerman]{babel}
 \usepackage{graphicx}
 \usepackage{eso-pic}
-\usepackage{graphicx}
 \usepackage{setspace}
-\usepackage{fancyhdr}
 \usepackage{tabularx}
+\usepackage{stackengine}
 
 \usepackage[left=3cm, right=5cm, top=1.5cm, bottom=1.5cm]{geometry}
 \onehalfspacing
@@ -16,15 +15,15 @@
 
 \author{}
 \date{}
-\title{{\fontsize{26pt}{30pt}\selectfont Seminarfach} \\[3cm] {\fontsize{30pt}{40}\selectfont Exposé}}
+\title{{\fontsize{26pt}{30pt}\selectfont Seminarfach} \\[3cm] {\fontsize{30pt}{40pt}\selectfont Exposé}}
 
 
 % Commands for the pages with background
 \newcommand{\BackgroundImageFile}{Background.png}
 
 \newcommand{\StartBackground}{
-\newgeometry{top=5cm,bottom=1.5cm,left=4cm,right=2cm}
-\AddToShipoutPictureBG*{
+\newgeometry{top=6.5cm,bottom=1.5cm,left=4cm,right=2cm}
+\AddToShipoutPictureBG{
 \put(0,0){
 \parbox[b][\paperheight]{\paperwidth}{
 \vfill
@@ -41,25 +40,76 @@
 
 
 %---------------------------------------------------------------------------------
-% Titelseite
+% Titelseite / Benotung
 
 \begin{document}
 \StartBackground
 
 \maketitle
-\vspace{6cm}
+\vspace{4cm}
 \begin{table}[h!]
     \renewcommand{\arraystretch}{3}
     \begin{tabularx}{\textwidth}{>{\centering\arraybackslash}l
                                  >{\raggedright\arraybackslash}X}
         \textbf{Thema:}&Entstehungsmechanismen und strukturelle Merkmale von Zentralbergen in Impaktkratern, Vulkanen und Äquatorialkämmen im Sonnensystem\\
-        \textbf{Verfasser:}&\\
-        \textbf{Fachlehrkraft:}& (ROP)
+        \textbf{Verfasser:}&Placeholder\\
+        \textbf{Fachlehrkraft:}&Placeholder \quad (Placeholder)
         \end{tabularx}
-    \label{Grade der Knoten}
 \end{table}
 
+
+\newpage
+\noindent\textbf{Gymnasium Mellendorf\\Fritz-Sennheiser-Platz 2\\30900 Wedemark}\\
+Schuljahr:  2025/26\\
+
+{\fontsize{26pt}{20pt}\selectfont\begin{center} Seminarfach \end{center}}
+
+\noindent\rule{\linewidth}{0.5pt}
+
+\begin{table}[h!]
+    \renewcommand{\arraystretch}{2}
+    \begin{tabularx}{\textwidth}{>{\centering\arraybackslash}l
+                                 >{\raggedright\arraybackslash}X}
+        Verfasser:&Placeholder\\
+        Thema:&Entstehungsmechanismen und strukturelle Merkmale von Zentralbergen in Impaktkratern, Vulkanen und Äquatorialkämmen im Sonnensystem\\
+        Fachlehrkraft:& Placeholder \quad (Placeholder)
+        \end{tabularx}
+\end{table}
+
+\noindent\rule{\linewidth}{0.5pt}\\[0.5cm]
+\textbf{Abgabetermin: 19.02.2026 zu Beginn der Seminarfachsitzung um 14 Uhr}\\[0.3cm]
+\rule{\linewidth}{0.5pt}\\
+
+\begin{tabular}{l  l}
+    &\\
+    \textbf{Benotung:}&\fbox{\rule[-1.5em]{0pt}{4em}\hspace{3cm}}\\
+    &\\[0.3cm]
+\end{tabular}
+
+\hspace{3cm} Verfasser*in\\[1cm]
+
+\hspace{1cm} \stackunder[4pt]{\rule{4.5cm}{0.6pt}}{\makebox[4.5cm]{Datum}}
+\hspace{2cm} \stackunder[4pt]{\rule{5.5cm}{0.6pt}}{\makebox[5.5cm]{Unterschrift der Lehrkraft}}
+
+
+%---------------------------------------------------------------------------------
+% Eigenständigkeit --> HINTEN ANHÄNGEN!!!
+
+\newpage
+\noindent{\fontsize{14pt}{16pt}\selectfont \textbf{Erklärung des Verfassers}}\\[0.5cm]
+Hiermit erklären ich, dass ich die vorliegende Arbeit selbständig angefertigt,
+keine anderen als die angegebenen Hilfsmittel benutzt und die Stellen der Facharbeit,
+die im Wortlaut oder im wesentlichen Inhalt aus anderen Werken oder dem Internet entnommen wurden,
+mit genauer Quellenangabe kenntlich gemacht habe.\\[0.8cm]
+
+\noindent Verfasser:\quad Placeholder\\[0.8cm]
+
+\hspace{1cm} \stackunder[4pt]{\rule{4.5cm}{0.6pt}}{\makebox[4.5cm]{Datum}}
+\hspace{2cm} \stackunder[4pt]{\rule{5.5cm}{0.6pt}}{\makebox[5.5cm]{Unterschrift}}
+
+
 \StopBackground
+
 
 %---------------------------------------------------------------------------------
 

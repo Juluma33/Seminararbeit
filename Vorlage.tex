@@ -1,0 +1,46 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[ngerman]{babel}
+\usepackage{graphicx}
+\usepackage{eso-pic}
+
+
+\author{
+\\\\\\\\\\\\\\\\Thema: \\\\
+Verfasser: Julian Baden\\\\
+Fachlehrkraft: }
+\title{\Huge{Exposé zum Verfassen einer\\wissenschaftlichen Arbeit}}
+\date{\today}
+
+
+
+% Hintergrundbildbefehl
+\newcommand\BackgroundPic{
+\put(0,0){
+\parbox[b][\paperheight]{\paperwidth}{
+\vfill
+\centering
+\includegraphics[width=\paperwidth,height=\paperheight]{Images/Background.png}%
+\vfill}}}
+
+
+
+
+
+\begin{document}
+
+\AddToShipoutPicture*{\BackgroundPic}
+\thispagestyle{empty}
+
+\maketitle
+
+\newpage
+\AddToShipoutPicture*{}
+
+
+
+
+
+
+
+\end{document}

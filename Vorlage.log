@@ -1,0 +1,181 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.22)  22 JAN 2026 15:27
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/juluma/Documents/0_GitHub/Seminararbeit/Vorlage.tex
+(/home/juluma/Documents/0_GitHub/Seminararbeit/Vorlage.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-10-24>
+(/home/juluma/.miktex/texmfs/install/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/home/juluma/.miktex/texmfs/install/tex/latex/base/size11.clo
+File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+) (/home/juluma/.miktex/texmfs/install/tex/generic/babel/babel.sty
+Package: babel 2025/10/22 v25.14 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+\babel@savecnt=\count283
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2050.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2052.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2054.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2055.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2056.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2058.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2083.
+\U@D=\dimen149
+\l@unhyphenated=\language1
+ (/home/juluma/.miktex/texmfs/install/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count284
+
+
+Package babel Warning: Configuration files are deprecated, as
+(babel)                they can break document portability.
+(babel)                Reported on input line 4172.
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(/home/juluma/.miktex/texmfs/install/tex/latex/arabi/bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (/home/juluma/.miktex/texmfs/install/tex/generic/babel/locale/de/babel-ngerman.tex)
+Package babel Info: Importing font and identification data for ngerman
+(babel)             from babel-de.ini. Reported on input line 4295.
+ (/home/juluma/.miktex/texmfs/install/tex/latex/babel-german/ngerman.ldf
+Language: ngerman 2024/12/10 v2.15 German support for babel (post-1996 orthography)
+ (/home/juluma/.miktex/texmfs/install/tex/latex/babel-german/ngermanb.ldf
+Language: ngermanb 2024/12/10 v2.15 German support for babel (post-1996 orthography)
+
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language 'German (new orthography)' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for \language=0 instead on input line 48.
+
+Package babel Info: Making " an active character on input line 122.
+))) (/home/juluma/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+ (/home/juluma/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (/home/juluma/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (/home/juluma/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (/home/juluma/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (/home/juluma/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
+) (/home/juluma/.miktex/texmfs/install/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2025/12/10 v3.0d eso-pic (RN)
+\ESO@tempdima=\dimen152
+\ESO@tempdimb=\dimen153
+ (/home/juluma/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (/home/juluma/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (/home/juluma/.miktex/texmfs/install/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)) (/home/juluma/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count285
+) (Vorlage.aux
+Package babel Info: 'ngerman' activates 'ngerman' shorthands.
+(babel)             Reported on input line 5.
+)
+\openout1 = `Vorlage.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+ (/home/juluma/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count286
+\scratchdimen=\dimen154
+\scratchbox=\box53
+\nofMPsegments=\count287
+\nofMParguments=\count288
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count289
+\MPscratchDim=\dimen155
+\MPnumerator=\count290
+\makeMPintoPDFobject=\count291
+\everyMPtoPDFconversion=\toks19
+) (/home/juluma/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/home/juluma/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 35.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 35.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 35.
+<Images/Background.png, id=1, 522.096pt x 794.97pt>
+File: Images/Background.png Graphic file (type png)
+<use Images/Background.png>
+Package pdftex.def Info: Images/Background.png  used on input line 37.
+(pdftex.def)             Requested size: 597.53777pt x 845.07813pt.
+ [1
+
+{/home/juluma/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map} <./Images/Background.png>] (Vorlage.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-10-24>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 3079 strings out of 469808
+ 51478 string characters out of 5470311
+ 466665 words of memory out of 5000000
+ 31718 multiletter control sequences out of 15000+600000
+ 631355 words of font info for 52 fonts, out of 8000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 57i,12n,76p,250b,274s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/juluma/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/juluma/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/juluma/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on Vorlage.pdf (1 page, 432388 bytes).
+PDF statistics:
+ 22 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+

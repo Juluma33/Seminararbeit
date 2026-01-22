@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.22)  22 JAN 2026 15:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.22)  22 JAN 2026 16:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -112,20 +112,20 @@ Package babel Info: 'ngerman' activates 'ngerman' shorthands.
 )
 \openout1 = `Vorlage.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
  (/home/juluma/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count286
@@ -146,17 +146,22 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 35.
+(Font)              <12> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 35.
+(Font)              <8> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 35.
+(Font)              <6> on input line 31.
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--35
+
+ []
+
 <Images/Background.png, id=1, 522.096pt x 794.97pt>
 File: Images/Background.png Graphic file (type png)
 <use Images/Background.png>
-Package pdftex.def Info: Images/Background.png  used on input line 37.
+Package pdftex.def Info: Images/Background.png  used on input line 36.
 (pdftex.def)             Requested size: 597.53777pt x 845.07813pt.
- [1
+[1
 
 {/home/juluma/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map} <./Images/Background.png>] (Vorlage.aux)
  ***********
@@ -165,15 +170,15 @@ L3 programming layer <2025-10-24>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3079 strings out of 469808
- 51478 string characters out of 5470311
- 466665 words of memory out of 5000000
- 31718 multiletter control sequences out of 15000+600000
- 631355 words of font info for 52 fonts, out of 8000000 for 9000
+ 3078 strings out of 469808
+ 51467 string characters out of 5470311
+ 465633 words of memory out of 5000000
+ 31716 multiletter control sequences out of 15000+600000
+ 631962 words of font info for 54 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 57i,12n,76p,250b,274s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/juluma/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/juluma/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/juluma/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Vorlage.pdf (1 page, 432388 bytes).
+ 57i,12n,76p,250b,272s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/juluma/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></home/juluma/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/juluma/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on Vorlage.pdf (1 page, 434124 bytes).
 PDF statistics:
  22 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

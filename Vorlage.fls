@@ -63,6 +63,7 @@ INPUT /home/juluma/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 INPUT /home/juluma/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 INPUT /home/juluma/.miktex/texmfs/install/fonts/tfm/public/cm/cmr17.tfm
 INPUT /home/juluma/.miktex/texmfs/install/fonts/tfm/public/cm/cmr17.tfm
+INPUT /home/juluma/.miktex/texmfs/install/fonts/tfm/public/cm/cmr17.tfm
 INPUT /home/juluma/.miktex/texmfs/install/fonts/tfm/public/cm/cmr12.tfm
 INPUT /home/juluma/.miktex/texmfs/install/fonts/tfm/public/cm/cmr8.tfm
 INPUT /home/juluma/.miktex/texmfs/install/fonts/tfm/public/cm/cmr6.tfm
@@ -72,6 +73,7 @@ INPUT /home/juluma/.miktex/texmfs/install/fonts/tfm/public/cm/cmmi6.tfm
 INPUT /home/juluma/.miktex/texmfs/install/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /home/juluma/.miktex/texmfs/install/fonts/tfm/public/cm/cmsy8.tfm
 INPUT /home/juluma/.miktex/texmfs/install/fonts/tfm/public/cm/cmsy6.tfm
+INPUT /home/juluma/.miktex/texmfs/install/fonts/tfm/public/cm/cmbx10.tfm
 INPUT ./Images/Background.png
 INPUT ./Images/Background.png
 INPUT ./Images/Background.png
@@ -82,9 +84,9 @@ INPUT ./Images/Background.png
 INPUT ./Images/Background.png
 INPUT /home/juluma/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map
 INPUT Vorlage.aux
+INPUT /home/juluma/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+INPUT /home/juluma/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /home/juluma/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /home/juluma/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT /home/juluma/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb
-INPUT /home/juluma/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /home/juluma/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT /home/juluma/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb

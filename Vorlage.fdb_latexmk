@@ -1,7 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1769092076.72875 "/home/juluma/Documents/0_GitHub/Seminararbeit/Vorlage.tex" "Vorlage.pdf" "Vorlage" 1769092077.6434 0
+["pdflatex"] 1769094443.49947 "/home/juluma/Documents/0_GitHub/Seminararbeit/Vorlage.tex" "Vorlage.pdf" "Vorlage" 1769094444.40876 0
   "/home/juluma/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map" 1769091707.39281 184544 4d3e3703200da1d5b38212034f635eed ""
   "/home/juluma/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1769091282.98636 10132731 6a57a98117906364b197b04dfd248e87 ""
+  "/home/juluma/.miktex/texmfs/install/fonts/tfm/public/cm/cmbx10.tfm" 1763128357.20158 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/home/juluma/.miktex/texmfs/install/fonts/tfm/public/cm/cmmi12.tfm" 1763128357.20468 1524 4414a8315f39513458b80dfc63bff03a ""
   "/home/juluma/.miktex/texmfs/install/fonts/tfm/public/cm/cmmi6.tfm" 1763128357.20512 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "/home/juluma/.miktex/texmfs/install/fonts/tfm/public/cm/cmmi8.tfm" 1763128357.20541 1520 eccf95517727cb11801f4f1aee3a21b4 ""
@@ -13,8 +14,8 @@
   "/home/juluma/.miktex/texmfs/install/fonts/tfm/public/cm/cmsy10.tfm" 1763128357.21068 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/home/juluma/.miktex/texmfs/install/fonts/tfm/public/cm/cmsy6.tfm" 1763128357.21097 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/home/juluma/.miktex/texmfs/install/fonts/tfm/public/cm/cmsy8.tfm" 1763128357.21135 1120 8b7d695260f3cff42e636090a8002094 ""
+  "/home/juluma/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1763128342.4949 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/home/juluma/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1763128342.5529 35752 024fb6c41858982481f6968b5fc26508 ""
-  "/home/juluma/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1763128342.5549 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/home/juluma/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1763128342.5569 32362 179c33bbf43f19adbb3825bb4e36e57a ""
   "/home/juluma/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii" 1763128441.8091 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/home/juluma/.miktex/texmfs/install/tex/generic/babel/babel.sty" 1763128353.49928 145885 784cdd1ebbc3dbacabd5ee30707617a3 ""
@@ -39,10 +40,10 @@
   "/home/juluma/.miktex/texmfs/install/tex/latex/graphics/trig.sty" 1763128364.93435 4023 e66acf578d6b564c4670fb57ff336a7a ""
   "/home/juluma/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def" 1763128374.31403 30662 bfd6e864f4ffc5018b0e2b6260c3181c ""
   "/home/juluma/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty" 1763128460.186 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "/home/juluma/Documents/0_GitHub/Seminararbeit/Vorlage.tex" 1769092076.13873 640 5d010cdc1db80bb637bfc69a420da014 ""
+  "/home/juluma/Documents/0_GitHub/Seminararbeit/Vorlage.tex" 1769094442.88784 657 bb2ddc265a132992e62fca124e688e17 ""
   "Images/Background.png" 1769091865.76427 357534 00aadf1246f917ad97ef6c3c3558ac5d ""
-  "Vorlage.aux" 1769092077.52521 170 9d0fd347ff1c34327ede8814b6611adc "pdflatex"
-  "Vorlage.tex" 1769092076.13873 640 5d010cdc1db80bb637bfc69a420da014 ""
+  "Vorlage.aux" 1769094444.28494 170 9d0fd347ff1c34327ede8814b6611adc "pdflatex"
+  "Vorlage.tex" 1769094442.88784 657 bb2ddc265a132992e62fca124e688e17 ""
   (generated)
   "Vorlage.aux"
   "Vorlage.log"

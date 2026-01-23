@@ -3,12 +3,10 @@
 \usepackage[ngerman]{babel}
 \usepackage{graphicx}
 \usepackage{eso-pic}
-\usepackage{setspace}
 \usepackage{tabularx}
 \usepackage{stackengine}
 
-\usepackage[left=3cm, right=5cm, top=1.5cm, bottom=1.5cm]{geometry}
-\onehalfspacing
+\usepackage[left=3cm, right=5cm, top=1.5cm, bottom=2cm]{geometry}
 
 \usepackage{fontspec}
 \setmainfont{Arial}
@@ -18,9 +16,6 @@
 \title{{\fontsize{26pt}{30pt}\selectfont Seminarfach} \\[3cm] {\fontsize{30pt}{40pt}\selectfont Exposé}}
 
 
-% Commands for the pages with background
-\newcommand{\BackgroundImageFile}{Background.png}
-
 \newcommand{\StartBackground}{
 \newgeometry{top=6.5cm,bottom=1.5cm,left=4cm,right=2cm}
 \AddToShipoutPictureBG{
@@ -28,15 +23,12 @@
 \parbox[b][\paperheight]{\paperwidth}{
 \vfill
 \centering
-\includegraphics[width=\paperwidth,height=\paperheight]{\BackgroundImageFile}%
+\includegraphics[width=\paperwidth,height=\paperheight]{Background.png}
 \vfill}}}}
-
 \newcommand{\StopBackground}{\newpage\restoregeometry\ClearShipoutPictureBG}
-
 
 \pagestyle{empty}
 \pagenumbering{gobble}
-
 
 
 %---------------------------------------------------------------------------------
@@ -107,14 +99,37 @@ mit genauer Quellenangabe kenntlich gemacht habe.\\[0.8cm]
 \hspace{1cm} \stackunder[4pt]{\rule{4.5cm}{0.6pt}}{\makebox[4.5cm]{Datum}}
 \hspace{2cm} \stackunder[4pt]{\rule{5.5cm}{0.6pt}}{\makebox[5.5cm]{Unterschrift}}
 
-
 \StopBackground
 
 
 %---------------------------------------------------------------------------------
+% Inhaltsverzeichnis
 
 
-Inhalt
+\fontsize{11pt}{16.5pt}
+
+\pagestyle{plain}
+\pagenumbering{Roman}
+\setcounter{page}{1}
+
+\tableofcontents
+\newpage
+
+
+%---------------------------------------------------------------------------------
+% Inhalt
+
+
+\pagenumbering{arabic}
+
+\section{Thema}
+\section{Fragestellung}
+\section{Ziel der Arbeit}
+\section{Methoden}
+\section{Hypothesen}
+\section{Gliederung}
+\section{Zeitplan}
+
 
 
 

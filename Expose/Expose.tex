@@ -13,7 +13,7 @@
 
 \author{}
 \date{}
-\title{{\fontsize{26pt}{30pt}\selectfont Seminarfach} \\[3cm] {\fontsize{30pt}{40pt}\selectfont Exposé}}
+\title{{\fontsize{26pt}{30pt}\selectfont Seminarfach} \\[3cm] {\fontsize{30pt}{40pt}\selectfont Arbeit}}
 
 
 \newcommand{\StartBackground}{
@@ -23,12 +23,35 @@
 \parbox[b][\paperheight]{\paperwidth}{
 \vfill
 \centering
-\includegraphics[width=\paperwidth,height=\paperheight]{Background.png}
+\includegraphics[width=\paperwidth,height=\paperheight]{../Background.png}
 \vfill}}}}
 \newcommand{\StopBackground}{\newpage\restoregeometry\ClearShipoutPictureBG}
 
 \pagestyle{empty}
 \pagenumbering{gobble}
+
+
+% Zitation
+\usepackage{csquotes}
+
+\usepackage[
+style=authoryear,
+backend=biber,
+natbib=true,
+maxcitenames=2,
+mincitenames=1,
+citetracker=context
+]{biblatex}
+
+
+\addbibresource{../Quellen/Quellen.bib}                 % --> Ändern wenn in Unterordnern
+
+\DeclareDelimFormat{finalnamedelim}{\space und\space}
+\renewcommand*{\postnotedelim}{\addcolon\space}
+\DeclareFieldFormat{postnote}{S.~#1}
+\renewcommand*{\multicitedelim}{\addsemicolon\space}
+
+\DefineBibliographyStrings{ngerman}{andothers = {et\addabbrvspace al\adddot}}
 
 
 %---------------------------------------------------------------------------------
@@ -43,7 +66,7 @@
     \renewcommand{\arraystretch}{3}
     \begin{tabularx}{\textwidth}{>{\centering\arraybackslash}l
                                  >{\raggedright\arraybackslash}X}
-        \textbf{Thema:}&Entstehungsmechanismen und strukturelle Merkmale von Zentralbergen in Impaktkratern, Vulkanen und Äquatorialkämmen im Sonnensystem\\
+        \textbf{Thema:}&\\
         \textbf{Verfasser:}&\\
         \textbf{Fachlehrkraft:}& \quad ()
         \end{tabularx}
@@ -63,13 +86,13 @@ Schuljahr:  2025/26\\
     \begin{tabularx}{\textwidth}{>{\centering\arraybackslash}l
                                  >{\raggedright\arraybackslash}X}
         Verfasser:&\\
-        Thema:&Entstehungsmechanismen und strukturelle Merkmale von Zentralbergen in Impaktkratern, Vulkanen und Äquatorialkämmen im Sonnensystem\\
-        Fachlehrkraft:&  \quad ()
+        Thema:&\\
+        Fachlehrkraft:& \quad ()
         \end{tabularx}
 \end{table}
 
 \noindent\rule{\linewidth}{0.5pt}\\[0.5cm]
-\textbf{Abgabetermin: 19.02.2026 zu Beginn der Seminarfachsitzung um 14 Uhr}\\[0.3cm]
+\textbf{Abgabetermin: }\\[0.3cm]
 \rule{\linewidth}{0.5pt}\\
 
 \begin{tabular}{l  l}
@@ -119,20 +142,20 @@ mit genauer Quellenangabe kenntlich gemacht habe.\\[0.8cm]
 %---------------------------------------------------------------------------------
 % Inhalt
 
-
 \pagenumbering{arabic}
 
-\section{Thema}
-\section{Fragestellung}
-\section{Ziel der Arbeit}
-\section{Methoden}
-\section{Hypothesen}
-\section{Gliederung}
-\section{Zeitplan}
+
+Dies ist eine Test Zitation \citep[6]{Rae_2018}.
 
 
 
 
+%---------------------------------------------------------------------------------
+% Verzeichnisse
 
+\newpage
+\pagenumbering{Roman}
+\setcounter{page}{2}
+\printbibliography
 
 \end{document}

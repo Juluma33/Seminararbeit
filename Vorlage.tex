@@ -44,7 +44,7 @@ citetracker=context
 ]{biblatex}
 
 
-\addbibresource{../Quellen/Quellen.bib}
+\addbibresource{Quellen/Quellen.bib}                 % --> Ändern wenn in Unterordnern
 
 \DeclareDelimFormat{finalnamedelim}{\space und\space}
 \renewcommand*{\postnotedelim}{\addcolon\space}
@@ -146,7 +146,18 @@ mit genauer Quellenangabe kenntlich gemacht habe.\\[0.8cm]
 \pagenumbering{arabic}
 
 
+Dies ist eine Test Zitation \citep[6]{Rae_2018}.
 
 
+
+
+
+%---------------------------------------------------------------------------------
+% Verzeichnisse
+
+\newpage
+\pagenumbering{Roman}
+\setcounter{page}{2}
+\printbibliography
 
 \end{document}

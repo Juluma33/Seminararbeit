@@ -1,0 +1,155 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[ngerman]{babel}
+\usepackage{graphicx}
+\usepackage{eso-pic}
+\usepackage{tabularx}
+\usepackage{stackengine}
+
+\usepackage[left=3cm, right=5cm, top=1.5cm, bottom=2cm]{geometry}
+
+\usepackage{fontspec}
+\setmainfont{Arial}
+
+\author{}
+\date{}
+\title{{\fontsize{26pt}{30pt}\selectfont Seminarfach} \\[3cm] {\fontsize{30pt}{40pt}\selectfont Quellenerläuterung}}
+
+
+\newcommand{\StartBackground}{
+\newgeometry{top=6.5cm,bottom=1.5cm,left=4cm,right=2cm}
+\AddToShipoutPictureBG{
+\put(0,0){
+\parbox[b][\paperheight]{\paperwidth}{
+\vfill
+\centering
+\includegraphics[width=\paperwidth,height=\paperheight]{../Background.png}
+\vfill}}}}
+\newcommand{\StopBackground}{\newpage\restoregeometry\ClearShipoutPictureBG}
+
+\pagestyle{empty}
+\pagenumbering{gobble}
+
+
+% Zitation
+\usepackage{csquotes}
+
+\usepackage[
+style=authoryear,
+backend=biber,
+natbib=true,
+maxcitenames=2,
+mincitenames=1,
+citetracker=context,
+giveninits=true
+]{biblatex}
+
+\DeclareDelimFormat{finalnamedelim}{\space und\space}
+\renewcommand*{\postnotedelim}{\addcomma\space}
+\DeclareFieldFormat{postnote}{S.#1}
+\renewcommand*{\multicitedelim}{\addsemicolon\space}
+\DefineBibliographyStrings{ngerman}{andothers = {et\addabbrvspace al\adddot}}
+\ExecuteBibliographyOptions{doi=true, url=false}
+\DeclareFieldFormat[article,book,thesis]{title}{\mkbibemph{#1}}
+
+
+\addbibresource{../Quellen/Quellen.bib}                 % --> Ändern wenn in Unterordnern
+
+
+%---------------------------------------------------------------------------------
+% Titelseite / Benotung
+
+\begin{document}
+\StartBackground
+
+\maketitle
+\vspace{4cm}
+\begin{table}[h!]
+    \renewcommand{\arraystretch}{3}
+    \begin{tabularx}{\textwidth}{>{\centering\arraybackslash}l
+                                 >{\raggedright\arraybackslash}X}
+        \textbf{Thema:}&Entstehungsmechanismen und strukturelle Merkmale von Zentralbergen in Impaktkratern, Vulkanen und Äquatorialkämmen im Sonnensystem\\
+        \textbf{Verfasser:}&\\
+        \textbf{Fachlehrkraft:}& \quad ()
+        \end{tabularx}
+\end{table}
+
+
+\newpage
+\noindent\textbf{Gymnasium Mellendorf\\Fritz-Sennheiser-Platz 2\\30900 Wedemark}\\
+Schuljahr:  2025/26\\
+
+{\fontsize{26pt}{20pt}\selectfont\begin{center} Seminarfach \end{center}}
+
+\noindent\rule{\linewidth}{0.5pt}
+
+\begin{table}[h!]
+    \renewcommand{\arraystretch}{2}
+    \begin{tabularx}{\textwidth}{>{\centering\arraybackslash}l
+                                 >{\raggedright\arraybackslash}X}
+        Verfasser:&\\
+        Thema:&Entstehungsmechanismen und strukturelle Merkmale von Zentralbergen in Impaktkratern, Vulkanen und Äquatorialkämmen im Sonnensystem\\
+        Fachlehrkraft:& \quad ()
+        \end{tabularx}
+\end{table}
+
+\noindent\rule{\linewidth}{0.5pt}\\[0.5cm]
+\textbf{Abgabetermin: 29.01.2026}\\[0.3cm]
+\rule{\linewidth}{0.5pt}\\
+
+\begin{tabular}{l  l}
+    &\\
+    \textbf{Benotung:}&\fbox{\rule[-1.5em]{0pt}{4em}\hspace{3cm}}\\
+    &\\[0.3cm]
+\end{tabular}
+
+\hspace{3cm} Verfasser*in\\[1cm]
+
+\hspace{1cm} \stackunder[4pt]{\rule{4.5cm}{0.6pt}}{\makebox[4.5cm]{Datum}}
+\hspace{2cm} \stackunder[4pt]{\rule{5.5cm}{0.6pt}}{\makebox[5.5cm]{Unterschrift der Lehrkraft}}
+
+
+\StopBackground
+
+
+%---------------------------------------------------------------------------------
+% Inhalt
+
+
+\fontsize{11pt}{16.5pt}
+\pagestyle{plain}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+
+
+\begin{table}[h!]
+    \renewcommand{\arraystretch}{2}
+    \begin{tabularx}{\textwidth}{>{\centering\arraybackslash}l
+                                 >{\raggedright\arraybackslash}X}
+        %--------------------------------------------------------------------------------------------------------------------
+        \textbf{Zentralberge in Impaktkratern:}\\ \hline
+        \citeauthor{Rae_2018}, \citeyear{Rae_2018}&\\
+        
+        %--------------------------------------------------------------------------------------------------------------------
+        \textbf{Vulkane:}\\ \hline
+        
+        %--------------------------------------------------------------------------------------------------------------------
+        \textbf{Äquatorialkämmen:}\\ \hline
+        
+        \end{tabularx}
+\end{table}
+
+
+
+
+
+%---------------------------------------------------------------------------------
+% Verzeichnisse
+
+\newpage
+\pagenumbering{Roman}
+\setcounter{page}{2}
+\printbibliography
+
+\end{document}

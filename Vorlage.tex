@@ -32,36 +32,26 @@
 
 
 % Zitation
+\usepackage{csquotes}
+
 \usepackage[
 style=authoryear,
 backend=biber,
 natbib=true,
 maxcitenames=2,
 mincitenames=1,
-citetracker=true,
-ibidtracker=true
+citetracker=context
 ]{biblatex}
 
-% Literaturdatei
+
 \addbibresource{../Quellen/Quellen.bib}
 
-% "und" statt "&"
 \DeclareDelimFormat{finalnamedelim}{\space und\space}
-
-% "et al." bei mehr als zwei Autoren
-\DefineBibliographyStrings{german}{andothers = {et\addabbrvspace al\adddot}}
-
-% Doppelpunkt vor Seitenzahl (Jahr: S. 23)
 \renewcommand*{\postnotedelim}{\addcolon\space}
-
-% "S." vor Seitenzahlen
 \DeclareFieldFormat{postnote}{S.~#1}
-
-% Mehrere Quellen mit Semikolon
 \renewcommand*{\multicitedelim}{\addsemicolon\space}
 
-% "ebd." für Wiederholungen
-\DefineBibliographyStrings{german}{ibid = {ebd\adddot}}
+\DefineBibliographyStrings{ngerman}{andothers = {et\addabbrvspace al\adddot}}
 
 
 %---------------------------------------------------------------------------------

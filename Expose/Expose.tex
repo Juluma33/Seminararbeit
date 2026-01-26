@@ -40,18 +40,18 @@ backend=biber,
 natbib=true,
 maxcitenames=2,
 mincitenames=1,
-citetracker=context
+citetracker=context,
+giveninits=true
 ]{biblatex}
 
+\DeclareDelimFormat{finalnamedelim}{\space und\space}
+\renewcommand*{\postnotedelim}{\addcomma\space}
+\DeclareFieldFormat{postnote}{S.#1}
+\renewcommand*{\multicitedelim}{\addsemicolon\space}
+\DefineBibliographyStrings{ngerman}{andothers = {et\addabbrvspace al\adddot}}
+\ExecuteBibliographyOptions{doi=true, url=false}
 
 \addbibresource{../Quellen/Quellen.bib}                 % --> Ändern wenn in Unterordnern
-
-\DeclareDelimFormat{finalnamedelim}{\space und\space}
-\renewcommand*{\postnotedelim}{\addcolon\space}
-\DeclareFieldFormat{postnote}{S.~#1}
-\renewcommand*{\multicitedelim}{\addsemicolon\space}
-
-\DefineBibliographyStrings{ngerman}{andothers = {et\addabbrvspace al\adddot}}
 
 
 %---------------------------------------------------------------------------------

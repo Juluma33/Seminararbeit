@@ -40,18 +40,20 @@ backend=biber,
 natbib=true,
 maxcitenames=2,
 mincitenames=1,
-citetracker=context
+citetracker=context,
+giveninits=true
 ]{biblatex}
+
+\DeclareDelimFormat{finalnamedelim}{\space und\space}
+\renewcommand*{\postnotedelim}{\addcomma\space}
+\DeclareFieldFormat{postnote}{S.#1}
+\renewcommand*{\multicitedelim}{\addsemicolon\space}
+\DefineBibliographyStrings{ngerman}{andothers = {et\addabbrvspace al\adddot}}
+\ExecuteBibliographyOptions{doi=true, url=false}
+\DeclareFieldFormat[article,book,thesis]{title}{\mkbibemph{#1}}
 
 
 \addbibresource{Quellen/Quellen.bib}                 % --> Ändern wenn in Unterordnern
-
-\DeclareDelimFormat{finalnamedelim}{\space und\space}
-\renewcommand*{\postnotedelim}{\addcolon\space}
-\DeclareFieldFormat{postnote}{S.~#1}
-\renewcommand*{\multicitedelim}{\addsemicolon\space}
-
-\DefineBibliographyStrings{ngerman}{andothers = {et\addabbrvspace al\adddot}}
 
 
 %---------------------------------------------------------------------------------
@@ -142,12 +144,10 @@ mit genauer Quellenangabe kenntlich gemacht habe.\\[0.8cm]
 %---------------------------------------------------------------------------------
 % Inhalt
 
-
 \pagenumbering{arabic}
 
 
 Dies ist eine Test Zitation \citep[6]{Rae_2018}.
-
 
 
 

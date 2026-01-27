@@ -1,0 +1,535 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{Damptz_2018}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5f16c73bc300b7f1aa894fbfee9ce2ad}{%
+           family={Damptz},
+           familyi={D\bibinitperiod},
+           given={Amanda\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7684798ec7b2feb9e4ac716c4b7b5460}{%
+           family={Dombard},
+           familyi={D\bibinitperiod},
+           given={Andrew\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d9763cd67fcef13c3e76344d98e2238e}{%
+           family={Kirchoff},
+           familyi={K\bibinitperiod},
+           given={Michelle\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{107889d2ff94451d4d603d760505f7db}
+      \strng{fullhash}{8d238bda5680a065198ef081e56b111e}
+      \strng{fullhashraw}{8d238bda5680a065198ef081e56b111e}
+      \strng{bibnamehash}{8d238bda5680a065198ef081e56b111e}
+      \strng{authorbibnamehash}{8d238bda5680a065198ef081e56b111e}
+      \strng{authornamehash}{107889d2ff94451d4d603d760505f7db}
+      \strng{authorfullhash}{8d238bda5680a065198ef081e56b111e}
+      \strng{authorfullhashraw}{8d238bda5680a065198ef081e56b111e}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0019-1035}
+      \field{journaltitle}{Icarus}
+      \field{title}{Testing models for the formation of the equatorial ridge on Iapetus via crater counting}
+      \field{volume}{302}
+      \field{year}{2018}
+      \field{pages}{134\bibrangedash 144}
+      \range{pages}{11}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.icarus.2017.10.049
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0019103516300471
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0019103516300471
+      \endverb
+    \endentry
+    \entry{Dombard_2008}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=be56eafa036f9fc66ab91d3bb70aac37}{%
+           family={Dombard},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c9ce6f087b4a7b0b126d075abf940d8}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{21909d2d6df8125ed7140a63ad08a6c4}
+      \strng{fullhash}{21909d2d6df8125ed7140a63ad08a6c4}
+      \strng{fullhashraw}{21909d2d6df8125ed7140a63ad08a6c4}
+      \strng{bibnamehash}{21909d2d6df8125ed7140a63ad08a6c4}
+      \strng{authorbibnamehash}{21909d2d6df8125ed7140a63ad08a6c4}
+      \strng{authornamehash}{21909d2d6df8125ed7140a63ad08a6c4}
+      \strng{authorfullhash}{21909d2d6df8125ed7140a63ad08a6c4}
+      \strng{authorfullhashraw}{21909d2d6df8125ed7140a63ad08a6c4}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Constraints on the Evolution of Iapetus from Simulations of Its Ridge and Bulge}
+      \field{year}{2008}
+    \endentry
+    \entry{Lopez-Garcia_2014}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=7d2e70c92b80dce4c526406917f17624}{%
+           family={{Lopez Garcia}},
+           familyi={L\bibinitperiod},
+           given={Erika\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b917769fffb3d58543f63270675b8b6}{%
+           family={Rivera-Valentin},
+           familyi={R\bibinithyphendelim V\bibinitperiod},
+           given={Edgard\bibnamedelima G.},
+           giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=83803ec48781e889c74581c63f3e52e0}{%
+           family={Schenk},
+           familyi={S\bibinitperiod},
+           given={Paul\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a394974b224c0a4d089385cf87418b4c}{%
+           family={Hammond},
+           familyi={H\bibinitperiod},
+           given={Noah\bibnamedelima P.},
+           giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=788bba49396e7f37fa0c5e014c50c2ce}{%
+           family={Barr},
+           familyi={B\bibinitperiod},
+           given={Amy\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6d9490569c33af1f48698cf53ac505d5}
+      \strng{fullhash}{ffc81f52447a7bc8d43b740477f42391}
+      \strng{fullhashraw}{ffc81f52447a7bc8d43b740477f42391}
+      \strng{bibnamehash}{6d9490569c33af1f48698cf53ac505d5}
+      \strng{authorbibnamehash}{6d9490569c33af1f48698cf53ac505d5}
+      \strng{authornamehash}{6d9490569c33af1f48698cf53ac505d5}
+      \strng{authorfullhash}{ffc81f52447a7bc8d43b740477f42391}
+      \strng{authorfullhashraw}{ffc81f52447a7bc8d43b740477f42391}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0019-1035}
+      \field{journaltitle}{Icarus}
+      \field{title}{Topographic constraints on the origin of the equatorial ridge on Iapetus}
+      \field{volume}{237}
+      \field{year}{2014}
+      \field{pages}{419\bibrangedash 421}
+      \range{pages}{3}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.icarus.2014.04.025
+      \endverb
+    \endentry
+    \entry{Mason_2025}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=f84c3b763e9f7b9ed48a81db2e63dfcf}{%
+           family={Mason},
+           familyi={M\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5edc7bb4ecee056e9e7d45f4f4ead296}{%
+           family={Klidaras},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d4e1e69a3f7f1f0b51151de89034325}{%
+           family={Cirium},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=423c27687efc4e1f623bd832cb3b6682}{%
+           family={Ghail},
+           familyi={G\bibinitperiod},
+           given={R.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c778c636e8647a6a4c80acde5f36266d}{%
+           family={Lea-Wurzbach},
+           familyi={L\bibinithyphendelim W\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2ec56ece388522089a68ea9d11185ac9}
+      \strng{fullhash}{805da08e539e2021a9910719644eabce}
+      \strng{fullhashraw}{805da08e539e2021a9910719644eabce}
+      \strng{bibnamehash}{2ec56ece388522089a68ea9d11185ac9}
+      \strng{authorbibnamehash}{2ec56ece388522089a68ea9d11185ac9}
+      \strng{authornamehash}{2ec56ece388522089a68ea9d11185ac9}
+      \strng{authorfullhash}{805da08e539e2021a9910719644eabce}
+      \strng{authorfullhashraw}{805da08e539e2021a9910719644eabce}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Geophysical Research: Planets}
+      \field{number}{2}
+      \field{title}{Evolution of Plume Volcanism at Atla Regio, Venus}
+      \field{volume}{130}
+      \field{year}{2025}
+      \field{pages}{e2024JE008815}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb https://doi.org/10.1029/2024JE008815
+      \endverb
+    \endentry
+    \entry{Mouginis-Mark_2012}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6a663225348c702317188e601d4d8dab}{%
+           family={Mouginis-Mark},
+           familyi={M\bibinithyphendelim M\bibinitperiod},
+           given={Peter\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=64c95b881994bc838682659a1cdbc700}{%
+           family={Boyce},
+           familyi={B\bibinitperiod},
+           given={Joseph\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{be4f461d59704f743afbf29de3af8f0b}
+      \strng{fullhash}{be4f461d59704f743afbf29de3af8f0b}
+      \strng{fullhashraw}{be4f461d59704f743afbf29de3af8f0b}
+      \strng{bibnamehash}{be4f461d59704f743afbf29de3af8f0b}
+      \strng{authorbibnamehash}{be4f461d59704f743afbf29de3af8f0b}
+      \strng{authornamehash}{be4f461d59704f743afbf29de3af8f0b}
+      \strng{authorfullhash}{be4f461d59704f743afbf29de3af8f0b}
+      \strng{authorfullhashraw}{be4f461d59704f743afbf29de3af8f0b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0009-2819}
+      \field{journaltitle}{Geochemistry}
+      \field{number}{1}
+      \field{title}{Tooting crater: Geology and geomorphology of the archetype large, fresh, impact crater on Mars}
+      \field{volume}{72}
+      \field{year}{2012}
+      \field{pages}{1\bibrangedash 23}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1016/j.chemer.2011.12.001
+      \endverb
+    \endentry
+    \entry{Nimmo_1998}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a2b3ad636c23a0d3d725abb28c810899}{%
+           family={Nimmo},
+           familyi={N\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb6f4bccd73f11d98b42d38ec0d9d34a}{%
+           family={McKenzie},
+           familyi={M\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Annual Reviews}%
+      }
+      \strng{namehash}{82ef53077030aa475f62cb4efd369faf}
+      \strng{fullhash}{82ef53077030aa475f62cb4efd369faf}
+      \strng{fullhashraw}{82ef53077030aa475f62cb4efd369faf}
+      \strng{bibnamehash}{82ef53077030aa475f62cb4efd369faf}
+      \strng{authorbibnamehash}{82ef53077030aa475f62cb4efd369faf}
+      \strng{authornamehash}{82ef53077030aa475f62cb4efd369faf}
+      \strng{authorfullhash}{82ef53077030aa475f62cb4efd369faf}
+      \strng{authorfullhashraw}{82ef53077030aa475f62cb4efd369faf}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1545-4495}
+      \field{journaltitle}{Annual Review of Earth and Planetary Sciences}
+      \field{number}{Volume 26, 1998}
+      \field{title}{VOLCANISM AND TECTONICS ON VENUS}
+      \field{type}{Journal Article}
+      \field{volume}{26}
+      \field{year}{1998}
+      \field{pages}{23\bibrangedash 51}
+      \range{pages}{29}
+      \verb{doi}
+      \verb https://doi.org/10.1146/annurev.earth.26.1.23
+      \endverb
+      \verb{urlraw}
+      \verb https://www.annualreviews.org/content/journals/10.1146/annurev.earth.26.1.23
+      \endverb
+      \verb{url}
+      \verb https://www.annualreviews.org/content/journals/10.1146/annurev.earth.26.1.23
+      \endverb
+    \endentry
+    \entry{Quillen_2021}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=6ab319439b98ee02b9a6c64352fd3bff}{%
+           family={Quillen},
+           familyi={Q\bibinitperiod},
+           given={Alice\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a854e4f0f8cb77f90fed9d995120dc3}{%
+           family={Zaidouni},
+           familyi={Z\bibinitperiod},
+           given={Fatima},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c4b009c5a6092db5bb9ab38d16a3c0da}{%
+           family={Nakajima},
+           familyi={N\bibinitperiod},
+           given={Miki},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8514a30e6b5fc5b81858e54fc2dba579}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={Esteban},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{85b3ac9f992310bf243e3060c5e251c2}
+      \strng{fullhash}{90493da0039ef7345df873317eaeca78}
+      \strng{fullhashraw}{90493da0039ef7345df873317eaeca78}
+      \strng{bibnamehash}{85b3ac9f992310bf243e3060c5e251c2}
+      \strng{authorbibnamehash}{85b3ac9f992310bf243e3060c5e251c2}
+      \strng{authornamehash}{85b3ac9f992310bf243e3060c5e251c2}
+      \strng{authorfullhash}{90493da0039ef7345df873317eaeca78}
+      \strng{authorfullhashraw}{90493da0039ef7345df873317eaeca78}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0019-1035}
+      \field{journaltitle}{Icarus}
+      \field{title}{Accretion of ornamental equatorial ridges on Pan, Atlas and Daphnis}
+      \field{volume}{357}
+      \field{year}{2021}
+      \field{pages}{114260}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.icarus.2020.114260
+      \endverb
+    \endentry
+    \entry{Rae_2018}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f4b64bf36b643733683be29882c3bbb3}{%
+           family={Rae},
+           familyi={R\bibinitperiod},
+           given={Auriol\bibnamedelimb Stephen\bibnamedelima Prenter},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Imperial College London}%
+      }
+      \strng{namehash}{f4b64bf36b643733683be29882c3bbb3}
+      \strng{fullhash}{f4b64bf36b643733683be29882c3bbb3}
+      \strng{fullhashraw}{f4b64bf36b643733683be29882c3bbb3}
+      \strng{bibnamehash}{f4b64bf36b643733683be29882c3bbb3}
+      \strng{authorbibnamehash}{f4b64bf36b643733683be29882c3bbb3}
+      \strng{authornamehash}{f4b64bf36b643733683be29882c3bbb3}
+      \strng{authorfullhash}{f4b64bf36b643733683be29882c3bbb3}
+      \strng{authorfullhashraw}{f4b64bf36b643733683be29882c3bbb3}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The kinematics and dynamics of complex crater collapse}
+      \field{type}{phdthesis}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.25560/83669
+      \endverb
+      \verb{urlraw}
+      \verb http://hdl.handle.net/10044/1/83669
+      \endverb
+      \verb{url}
+      \verb http://hdl.handle.net/10044/1/83669
+      \endverb
+    \endentry
+    \entry{Schmidt_2020}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=923a954deed6d56d8695dc9608484538}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Johann\bibnamedelimb Friedrich\bibnamedelima Julius},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{923a954deed6d56d8695dc9608484538}
+      \strng{fullhash}{923a954deed6d56d8695dc9608484538}
+      \strng{fullhashraw}{923a954deed6d56d8695dc9608484538}
+      \strng{bibnamehash}{923a954deed6d56d8695dc9608484538}
+      \strng{authorbibnamehash}{923a954deed6d56d8695dc9608484538}
+      \strng{authornamehash}{923a954deed6d56d8695dc9608484538}
+      \strng{authorfullhash}{923a954deed6d56d8695dc9608484538}
+      \strng{authorfullhashraw}{923a954deed6d56d8695dc9608484538}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Translated from the original German edition}
+      \field{title}{The Moon: A Translation of Der Mond}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1007/978-3-030-37269-9
+      \endverb
+    \endentry
+    \entry{Solomon_1992}{article}{}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=7a9acad92b4429c40d345b08409a1be5}{%
+           family={Solomon},
+           familyi={S\bibinitperiod},
+           given={Sean\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d388ecdd30694ea7d93ce93f039f9c27}{%
+           family={Smrekar},
+           familyi={S\bibinitperiod},
+           given={Suzanne\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=959dbf94c5d6e78bb0438737ec8a6f29}{%
+           family={Bindschadler},
+           familyi={B\bibinitperiod},
+           given={Duane\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=29e99ce070b5073f2cc0a936c1a43628}{%
+           family={Grimm},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a5d8ee096fc8780081f9d4403188d626}{%
+           family={Kaula},
+           familyi={K\bibinitperiod},
+           given={William\bibnamedelima M.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d99cd4eec203c26e06580b9fa7a62c46}{%
+           family={McGill},
+           familyi={M\bibinitperiod},
+           given={George\bibnamedelima E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0191bac940bdcedd804fa1ee6b8fed8}{%
+           family={Phillips},
+           familyi={P\bibinitperiod},
+           given={Roger\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f15a0c2fd3d8fced13d2d40b1b6509b4}{%
+           family={Saunders},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi Stephen},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25918d1cab8e512937b266679862c91b}{%
+           family={Schubert},
+           familyi={S\bibinitperiod},
+           given={Gerald},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd498be26f31b521ff5f43f0a92999fd}{%
+           family={Squyres},
+           familyi={S\bibinitperiod},
+           given={Steven\bibnamedelima W.},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b30b0e736f8cb1800e904046997dd867}{%
+           family={Stofan},
+           familyi={S\bibinitperiod},
+           given={Ellen\bibnamedelima R.},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f36dbc9d2869c3c0aa8297f4f9df915c}
+      \strng{fullhash}{c69128a2f003f39af55bbaa340b33af8}
+      \strng{fullhashraw}{c69128a2f003f39af55bbaa340b33af8}
+      \strng{bibnamehash}{f36dbc9d2869c3c0aa8297f4f9df915c}
+      \strng{authorbibnamehash}{f36dbc9d2869c3c0aa8297f4f9df915c}
+      \strng{authornamehash}{f36dbc9d2869c3c0aa8297f4f9df915c}
+      \strng{authorfullhash}{c69128a2f003f39af55bbaa340b33af8}
+      \strng{authorfullhashraw}{c69128a2f003f39af55bbaa340b33af8}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Geophysical Research: Planets}
+      \field{number}{E8}
+      \field{title}{Venus tectonics: An overview of Magellan observations}
+      \field{volume}{97}
+      \field{year}{1992}
+      \field{pages}{13199\bibrangedash 13255}
+      \range{pages}{57}
+      \verb{doi}
+      \verb https://doi.org/10.1029/92JE01418
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

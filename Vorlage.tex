@@ -42,6 +42,8 @@ backend=biber,
 natbib=true,
 maxcitenames=2,
 mincitenames=1,
+maxbibnames=99,
+minbibnames=99,
 citetracker=context,
 giveninits=true
 ]{biblatex}
@@ -51,8 +53,9 @@ giveninits=true
 \DeclareFieldFormat{postnote}{S.#1}
 \renewcommand*{\multicitedelim}{\addsemicolon\space}
 \DefineBibliographyStrings{ngerman}{andothers = {et\addabbrvspace al\adddot}}
-\ExecuteBibliographyOptions{doi=true, url=false}
 \DeclareFieldFormat[article,book,thesis]{title}{\mkbibemph{#1}}
+\DeclareNameAlias{author}{family-given}
+\DeclareNameAlias{editor}{family-given}
 
 
 \addbibresource{Quellen/Quellen.bib}                 % --> Ändern wenn in Unterordnern
@@ -150,7 +153,7 @@ mit genauer Quellenangabe kenntlich gemacht habe.\\[0.8cm]
 \pagenumbering{arabic}
 
 
-Dies ist eine Test Zitation \citep[6]{Rae_2018}.
+
 
 
 

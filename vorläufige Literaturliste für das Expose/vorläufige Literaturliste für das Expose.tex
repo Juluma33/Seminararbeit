@@ -15,7 +15,7 @@
 
 \author{}
 \date{}
-\title{{\fontsize{26pt}{30pt}\selectfont Seminarfach} \\[3cm] {\fontsize{30pt}{40pt}\selectfont vorläufige Literaturliste für das Exposé}}
+\title{{\fontsize{26pt}{30pt}\selectfont Seminarfach} \\[3cm] {\fontsize{30pt}{40pt}\selectfont Kommentierte Literaturliste (vorläufig)}}
 
 
 \newcommand{\StartBackground}{
@@ -42,6 +42,8 @@ backend=biber,
 natbib=true,
 maxcitenames=2,
 mincitenames=1,
+maxbibnames=99,
+minbibnames=99,
 citetracker=context,
 giveninits=true
 ]{biblatex}
@@ -52,6 +54,8 @@ giveninits=true
 \renewcommand*{\multicitedelim}{\addsemicolon\space}
 \DefineBibliographyStrings{ngerman}{andothers = {et\addabbrvspace al\adddot}}
 \DeclareFieldFormat[article,book,thesis]{title}{\mkbibemph{#1}}
+\DeclareNameAlias{author}{family-given}
+\DeclareNameAlias{editor}{family-given}
 
 
 \addbibresource{../Quellen/Quellen.bib}                 % --> Ändern wenn in Unterordnern
@@ -73,7 +77,7 @@ giveninits=true
     \begin{tabularx}{\textwidth}{>{\centering\arraybackslash}l
                                  >{\raggedright\arraybackslash}X}
         \textbf{Thema:}&Entstehungsmechanismen und strukturelle Merkmale von Zentralbergen in Impaktkratern, Vulkanen und Äquatorialkämmen im Sonnensystem\\
-        \textbf{Verfasser:}&\\
+        \textbf{Verfasser:}&Julian Baden\\
         \textbf{Fachlehrkraft:}& \quad ()
         \end{tabularx}
 \end{table}

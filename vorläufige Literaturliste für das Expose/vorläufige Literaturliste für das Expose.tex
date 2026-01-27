@@ -1,10 +1,12 @@
 \documentclass[a4paper,11pt]{article}
 
 \usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage{eso-pic}
 \usepackage{tabularx}
 \usepackage{stackengine}
+\usepackage{ragged2e}
 
 \usepackage[left=3cm, right=5cm, top=1.5cm, bottom=2cm]{geometry}
 
@@ -60,6 +62,9 @@ giveninits=true
 % Titelseite / Benotung
 
 \begin{document}
+\justifying                 % => für Blocksatz
+
+
 \StartBackground
 
 \maketitle
@@ -88,23 +93,41 @@ giveninits=true
 
 
 
+\textbf{Zentralberge in Impaktkratern:}\\
 \begin{table}[h!]
-    \renewcommand{\arraystretch}{2}
-    \begin{tabularx}{\textwidth}{>{\centering\arraybackslash}l
-                                 >{\raggedright\arraybackslash}X}
-        %--------------------------------------------------------------------------------------------------------------------
-        \textbf{Zentralberge in Impaktkratern:}\\
-        \citeauthor{Rae_2018}, \citeyear{Rae_2018}&\\
-        
-        %--------------------------------------------------------------------------------------------------------------------
-        \textbf{Vulkane:}\\
-        
-        %--------------------------------------------------------------------------------------------------------------------
-        \textbf{Äquatorialkämmen:}\\
-        
+    \renewcommand{\arraystretch}{1.5}
+    \begin{tabularx}{\textwidth}{>{\centering\arraybackslash}p{3cm}
+                                 >{\justifying\arraybackslash}X}
+        \citeauthor{Rae_2018}, \citeyear{Rae_2018}&Rae behandelt im Kapitel 2.1 die Entstehung von Impaktkratern. Dabei wird in drei Phasen unterteilt: \glqq Contact and Compression\grqq , \glqq Excavation\grqq und \glqq Modification\grqq . Die ersten zwei sind interressant für die Bilduung von Zentralbergen.\\
+        \citeauthor{Mouginis-Mark_2012}, \citeyear{Mouginis-Mark_2012}&Mouginis-Mark analysiert in seinem Artikel den Toothing Krater, der in der Amazonis Planitia auf dem Mars liegt. Es handelt sich um einen geologisch gesehen recht jungen Krater mit einem, im Vergleich zur Kratergröße, recht großem Zentralberg (~1km hoch).\\
+        \citeauthor{Schmidt_2020}, \citeyear{Schmidt_2020}&In dieser Übersetzung von \glqq Der Mond\grqq (1856) findet sich unter anderem eine Beschreibung der Struktur von Zentralbergen auf Mondkratern, sowie Besonderheiten bei einigen Kratern. Letzteres ist allerdings nur bedingt interessant für die Beantwortung der Forschungsfrage, könnte aber als Beispiel dienen.\\
         \end{tabularx}
 \end{table}
 
+\textbf{Äquatorialkämmen:}\\
+\begin{table}[h!]
+    \renewcommand{\arraystretch}{1.5}
+    \begin{tabularx}{\textwidth}{>{\centering\arraybackslash}p{3cm}
+                                 >{\justifying\arraybackslash}X}
+        \citeauthor{Dombard_2008}, \citeyear{Dombard_2008}&Dombard nennt hier die Größe und den zum Mond relativen Umfang des Äquatorialkamms des Iapetus, einem Mond des Saturn. Des weiteren gibt er einige Thesen zur Entstehung des Kamms.\\
+        \citeauthor{Damptz_2018}, \citeyear{Damptz_2018}&In diesem Werk von Damptz (in Mitarbeit von Dombard) begründet er das Interesse am Äquatorialkamm und stellt verschiedene Modelle zu dessen Formung vor. Zum Abschluss seiner Arbeit nennt er noch das best geeignetste Modell, um die Entstehung zu erklären.\\
+        \citeauthor{Lopez-Garcia_2014}, \citeyear{Lopez-Garcia_2014}&Lopez-Garcia klassifiziert den Äquatorialkamm von Iapetus aus morphologischer Sicht und gibt außerdem Kerndaten, wie das Alter, Größe und den Winkel der Seiten an.\\
+        \citeauthor{Quillen_2021}, \citeyear{Quillen_2021}&Quillen behandelt in seiner Arbeit nicht nur den Mond Iapetus, der aufgrund seiner Eizigartigkeit am interressantesten ist, sondern auch die Monde Pan, Atlas und Daphne. Dies bringt weitere Beispiele. Außerdem behandelt Quillen die Bildung und Charakteristika der Monde, sowie ihre Morphologie.\\
+    \end{tabularx}
+\end{table}
+
+
+\newpage
+\textbf{Vulkane:}
+\begin{table}[h!]
+    \renewcommand{\arraystretch}{1.5}
+    \begin{tabularx}{\textwidth}{>{\centering\arraybackslash}p{3cm}
+                                 >{\justifying\arraybackslash}X}
+        \citeauthor{Mason_2025}, \citeyear{Mason_2025}&Mason untersucht den Manteldiapiervulkanismus (langsam durch den Mantel aufsteigende Magma) in der Alta Region der Venus. Darunter große Schildvulkane mit anderen Charakteristika als Vulkane auf der Erde und mehrere Beispiele.\\
+        \citeauthor{Solomon_1992}, \citeyear{Solomon_1992}&Solomon hat große vulkanische Regionen auf der Venus festgestellt. Auch Strukturen, wie \glqq Coronae\grqq, die einzigartig für die Venus sind, wurden entdeckt, genau wie so genannte "wrinkel ridges" und \glqq digitate flows\grqq, die alle in Zusammenhang zum Vulkanismus stehen. Solomon nennt auch ein Fehlen von Wasser als Grund für die gute Erhaltung der Strukturen.\\
+        \citeauthor{Nimmo_1998}, \citeyear{Nimmo_1998}&Nimmo stellt in seinem Artikel fest, dass die Venus vermutlich immer noch vulkanisch aktiv ist (inzwischen sehr wahrscheinlich). Des weiteren wurde eine größtenteils basaltische Oberfläche, viskose Lavaströme und, schon genannte \citep{Solomon_1992}, einzigartige Strukturen festgestellt. Interessant an diesem Artikel ist auch die Verteilung von Vulkanen auf der Venus und eine genannte globale Oberflächenerneuerung vor etwa 300-600 miollionen Jahren.\\
+    \end{tabularx}
+\end{table}
 
 
 

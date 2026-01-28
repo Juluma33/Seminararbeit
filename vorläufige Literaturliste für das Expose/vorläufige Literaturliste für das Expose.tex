@@ -41,7 +41,7 @@ style=authoryear,
 backend=biber,
 natbib=true,
 maxcitenames=2,
-mincitenames=1,
+mincitenames=2,
 maxbibnames=99,
 minbibnames=99,
 citetracker=context,
@@ -49,14 +49,22 @@ giveninits=true
 ]{biblatex}
 
 \DeclareDelimFormat{finalnamedelim}{\space und\space}
-\renewcommand*{\postnotedelim}{\addcomma\space}
-\DeclareFieldFormat{postnote}{S.#1}
+\renewcommand*{\postnotedelim}{\addcolon\space}
 \renewcommand*{\multicitedelim}{\addsemicolon\space}
+\DeclareFieldFormat{postnote}{S.#1}
 \DefineBibliographyStrings{ngerman}{andothers = {et\addabbrvspace al\adddot}}
-\DeclareFieldFormat[article,book,thesis]{title}{\mkbibemph{#1}}
+\DeclareFieldFormat[book,thesis]{title}{\mkbibemph{#1}}
+\DeclareFieldFormat[article]{title}{\mkbibquote{#1}}
 \DeclareNameAlias{author}{family-given}
 \DeclareNameAlias{editor}{family-given}
+\setlength{\bibhang}{1.25cm}
+\setlength{\bibitemsep}{0.5\baselineskip}
+\setlength{\bibparsep}{0pt}
+\DefineBibliographyStrings{ngerman}{editor = {Hrsg\adddot}, editors = {Hrsg\adddot}}
+\DeclareLabeldate{\field{date} \field{year}}
+\ExecuteBibliographyOptions{uniquename=false}
 
+\renewcommand*{\bibfont}{\fontsize{9pt}{10pt}\selectfont}
 
 \addbibresource{../Quellen/Quellen.bib}                 % --> Ändern wenn in Unterordnern
 
@@ -90,6 +98,7 @@ giveninits=true
 
 
 \fontsize{11pt}{16.5pt}
+\selectfont
 \pagestyle{plain}
 \pagenumbering{arabic}
 \setcounter{page}{1}
@@ -142,6 +151,7 @@ giveninits=true
 
 %---------------------------------------------------------------------------------
 % Verzeichnisse
+
 
 \newpage
 \pagenumbering{Roman}

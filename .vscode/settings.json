@@ -1,0 +1,29 @@
+{
+"latex-workshop.latex.tools": [
+  {
+    "name": "xelatex",
+    "command": "xelatex",
+    "args": [
+      "-synctex=1",
+      "-interaction=nonstopmode",
+      "-file-line-error",
+      "%DOC%"
+    ]
+  },
+  {
+    "name": "biber",
+    "command": "biber",
+    "args": ["%DOCFILE%"]
+  }
+],
+
+"latex-workshop.latex.recipes": [
+  {
+    "name": "XeLaTeX + Biber",
+    "tools": ["xelatex", "biber", "xelatex", "xelatex"]
+  }
+],
+
+"latex-workshop.latex.recipe.default": "XeLaTeX + Biber",
+"security.workspace.trust.untrustedFiles": "open"
+}

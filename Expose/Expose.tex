@@ -66,7 +66,11 @@ giveninits=true
 \DefineBibliographyStrings{ngerman}{urlseen = {Zugriff am}}
 
 
-\renewcommand*{\bibfont}{\fontsize{11pt}{12pt}\selectfont}
+\renewcommand*{\bibfont}{\fontsize{11pt}{12pt}\selectfont}      % Größe der Verzeichnisses
+
+
+\newcommand{\ebd}[1][]{\textit{(ebd.\if\relax\detokenize{#1}\relax\else~S.#1\fi)}}  % ebd. Zitation (geht leider nicht automatisch)
+
 
 \addbibresource{../Quellen/Quellen.bib}                 % --> Ändern wenn in Unterordnern
 
@@ -165,8 +169,8 @@ mit genauer Quellenangabe kenntlich gemacht habe.\\[0.8cm]
 
 \section{Thema}
 Auf der Erde existieren 8616 Gebirgszüge \citep[8]{Snethlage_2022}, etwa 1,2 Millionen benannte Erhebungen
-mit einer Höhe von mehr als einem Meter \citep{peakvisor_mountains} sowie annähernd 1350 vermutlich altive Vulkane \citep{usgs_volcanoes}.
-
+mit einer Höhe von mehr als einem Meter \citep{peakvisor_mountains} sowie annähernd 1350 vermutlich aktive Vulkane \citep{usgs_volcanoes}.
+Schätzungsweise 500 von diesen sind nachweislich ausgebrochen in historischen Zeiten ausgebrochen \ebd[3].
 
 
 
@@ -181,6 +185,8 @@ mit einer Höhe von mehr als einem Meter \citep{peakvisor_mountains} sowie annä
 \newpage
 \pagenumbering{Roman}
 \setcounter{page}{2}
+
+\nocite{*}                      % gibt alle Quellen aus der .bib an
 \printbibliography
 
 \end{document}

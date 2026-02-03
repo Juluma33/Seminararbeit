@@ -1,17 +1,22 @@
 \documentclass[a4paper,11pt]{article}
 
 \usepackage[ngerman]{babel}
-\usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage{eso-pic}
 \usepackage{tabularx}
 \usepackage{stackengine}
 \usepackage{ragged2e}
-
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{microtype}
+\usepackage{unicode-math}
+\setmathfont{Latin Modern Math}     % gegen Warnung wegen Arial Schriftart
 \usepackage[left=3cm, right=5cm, top=1.5cm, bottom=2cm]{geometry}
-
+\usepackage{setspace}
+\onehalfspacing                 % Zeilenabstand
 \usepackage{fontspec}
 \setmainfont{Arial}
+
 
 \author{}
 \date{}
@@ -65,12 +70,11 @@ giveninits=true
 \ExecuteBibliographyOptions{uniquename=false}
 \DefineBibliographyStrings{ngerman}{urlseen = {Zugriff am}}
 
-
 \renewcommand*{\bibfont}{\fontsize{11pt}{12pt}\selectfont}      % Größe der Verzeichnisses
-
 
 \newcommand{\ebd}[1][]{\textit{(ebd.\if\relax\detokenize{#1}\relax\else~S.#1\fi)}}  % ebd. Zitation (geht leider nicht automatisch)
 
+\AtBeginBibliography{\interlinepenalty=10000}
 
 \addbibresource{../Quellen/Quellen.bib}                 % --> Ändern wenn in Unterordnern
 
@@ -151,7 +155,7 @@ mit genauer Quellenangabe kenntlich gemacht habe.\\[0.8cm]
 % Inhaltsverzeichnis
 
 
-\fontsize{11pt}{16.5pt} \selectfont
+\normalsize
 
 \pagestyle{plain}
 \pagenumbering{Roman}
@@ -175,7 +179,7 @@ Die Bergbildung und der Vulkanismus auf der Erde sind Gegenstand zahlreicher Stu
 und ihr Verständnis gilt als weitgehend etabliert \citep[77-104, 485-506]{Plummer_2015}.
 
 Der italienische Gelehrte, Astronom und Philosoph Galileo Galilei berichtete 1610 in einer wissenschftlichenArbeiterstmals über
-die Existenz von Bergen auf dem Mond und beschrieb damit als Erster Gebirge auf einem anderen Himmelskörper \citep[13]{Galilei_1610}.
+die Existenz von Bergen auf dem Mond und beschrieb damit als Erster Berge, Gebirge und Krater auf einem anderen Himmelskörper \citep[13]{Galilei_1610}.
 
 
 

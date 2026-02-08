@@ -45,8 +45,8 @@
 style=authoryear,
 backend=biber,
 natbib=true,
-maxcitenames=2,
-mincitenames=2,
+maxcitenames=1,
+mincitenames=1,
 maxbibnames=99,
 minbibnames=99,
 citetracker=context,
@@ -58,6 +58,7 @@ giveninits=true
 \renewcommand*{\multicitedelim}{\addsemicolon\space}
 \DeclareFieldFormat{postnote}{S.#1}
 \DefineBibliographyStrings{ngerman}{andothers = {et\addabbrvspace al\adddot}}
+\renewbibmacro*{name:andothers}{}
 \DeclareFieldFormat[book,thesis]{title}{\mkbibemph{#1}}
 \DeclareFieldFormat[article]{title}{\mkbibquote{#1}}
 \DeclareNameAlias{author}{family-given}
@@ -69,13 +70,9 @@ giveninits=true
 \DeclareLabeldate{\field{date} \field{year}}
 \ExecuteBibliographyOptions{uniquename=false}
 \DefineBibliographyStrings{ngerman}{urlseen = {Zugriff am}}
-
-\renewcommand*{\bibfont}{\fontsize{11pt}{12pt}\selectfont}      % Größe der Verzeichnisses
-
+\renewcommand*{\bibfont}{\fontsize{9pt}{11pt}\selectfont}      % Größe der Verzeichnisses
 \newcommand{\ebd}[1][]{\textit{(ebd.\if\relax\detokenize{#1}\relax\else~S.#1\fi)}}  % ebd. Zitation (geht leider nicht automatisch)
-
 \AtBeginBibliography{\interlinepenalty=10000}
-
 \addbibresource{../Quellen/Quellen.bib}                 % --> Ändern wenn in Unterordnern
 
 
@@ -90,11 +87,11 @@ giveninits=true
 \vspace{4cm}
 \begin{table}[h!]
     \renewcommand{\arraystretch}{3}
-    \begin{tabularx}{\textwidth}{>{\centering\arraybackslash}l
+    \begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{5cm}
                                  >{\raggedright\arraybackslash}X}
         \textbf{Thema:}&Entstehungsmechanismen und strukturelle Merkmale von Zentralbergen in Impaktkratern, Vulkanen und Äquatorialkämmen im Sonnensystem\\
         \textbf{Verfasser:}&Julian Baden\\
-        \textbf{Fachlehrkraft:}& \quad ()
+        \textbf{Fachlehrkraft und Kursbezeichnung:}&
         \end{tabularx}
 \end{table}
 
@@ -109,11 +106,11 @@ Schuljahr:  2025/26\\
 
 \begin{table}[h!]
     \renewcommand{\arraystretch}{2}
-    \begin{tabularx}{\textwidth}{>{\centering\arraybackslash}l
+    \begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{4.5cm}
                                  >{\raggedright\arraybackslash}X}
         Verfasser:&Julian Baden\\
         Thema:&Entstehungsmechanismen und strukturelle Merkmale von Zentralbergen in Impaktkratern, Vulkanen und Äquatorialkämmen im Sonnensystem\\
-        Fachlehrkraft:& \quad ()
+        Fachlehrkraft und Kursbezeichnung:
         \end{tabularx}
 \end{table}
 

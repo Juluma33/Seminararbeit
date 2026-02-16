@@ -51,8 +51,8 @@ backend=biber,
 natbib=true,
 maxcitenames=1,
 mincitenames=1,
-maxbibnames=99,
-minbibnames=99,
+maxbibnames=3,
+minbibnames=3,
 citetracker=context,
 giveninits=true
 ]{biblatex}
@@ -62,7 +62,7 @@ giveninits=true
 \renewcommand*{\multicitedelim}{\addsemicolon\space}
 \DeclareFieldFormat{postnote}{S.#1}
 \DefineBibliographyStrings{ngerman}{andothers = {et\addabbrvspace al\adddot}}
-\renewbibmacro*{name:andothers}{}
+%\renewbibmacro*{name:andothers}{}                                                      % no et al. in der Literaturliste
 \DeclareFieldFormat[book,thesis]{title}{\mkbibemph{#1}}
 \DeclareFieldFormat[article]{title}{\mkbibquote{#1}}
 \DeclareNameAlias{author}{family-given}

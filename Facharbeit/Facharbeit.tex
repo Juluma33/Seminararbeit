@@ -42,27 +42,31 @@
 \pagenumbering{gobble}
 
 
+
+
+
 % Zitation
 \usepackage{csquotes}
 
 \usepackage[
-style=authoryear,
-backend=biber,
-natbib=true,
-maxcitenames=1,
-mincitenames=1,
-maxbibnames=3,
-minbibnames=3,
-citetracker=context,
-giveninits=true
+    style=authoryear,
+    backend=biber,
+    natbib=true,
+    maxcitenames=1,
+    mincitenames=1,
+    maxbibnames=3,
+    minbibnames=3,
+    citetracker=context,
+    giveninits=true
 ]{biblatex}
 
+
+\AtEveryCite{\renewbibmacro*{name:andothers}{}}
+\DefineBibliographyStrings{ngerman}{andothers = {et\addabbrvspace al\adddot}}
 \DeclareDelimFormat{finalnamedelim}{\space und\space}
 \renewcommand*{\postnotedelim}{\addcolon\space}
 \renewcommand*{\multicitedelim}{\addsemicolon\space}
 \DeclareFieldFormat{postnote}{S.#1}
-\DefineBibliographyStrings{ngerman}{andothers = {et\addabbrvspace al\adddot}}
-%\renewbibmacro*{name:andothers}{}                                                      % no et al.
 \DeclareFieldFormat[book,thesis]{title}{\mkbibemph{#1}}
 \DeclareFieldFormat[article]{title}{\mkbibquote{#1}}
 \DeclareNameAlias{author}{family-given}
@@ -70,15 +74,14 @@ giveninits=true
 \setlength{\bibhang}{1.25cm}
 \setlength{\bibitemsep}{0.5\baselineskip}
 \setlength{\bibparsep}{0pt}
-\DefineBibliographyStrings{ngerman}{editor = {Hrsg\adddot}, editors = {Hrsg\adddot}}
-\DeclareLabeldate{\field{date} \field{year}}
+\DefineBibliographyStrings{ngerman}{editor = {Hrsg\adddot},editors = {Hrsg\adddot}}
+\DeclareLabeldate{\field{date}\field{year}}
 \ExecuteBibliographyOptions{uniquename=false}
 \DefineBibliographyStrings{ngerman}{urlseen = {Zugriff am}}
-\renewcommand*{\bibfont}{\fontsize{11pt}{14pt}\selectfont}      % Größe der Verzeichnisses
-\newcommand{\ebd}[1][]{\text{(ebd.\if\relax\detokenize{#1}\relax\else~S.#1\fi)}}  % ebd. Zitation (geht leider nicht automatisch)
+\renewcommand*{\bibfont}{\fontsize{11pt}{14pt}\selectfont}
+\newcommand{\ebd}[1][]{\text{(ebd.\if\relax\detokenize{#1}\relax\else~S.#1\fi)}}
 \AtBeginBibliography{\interlinepenalty=10000}
-\addbibresource{../Quellen/Quellen.bib}                 % --> Ändern wenn in Unterordnern
-
+\addbibresource{../Quellen/Quellen.bib}
 
 
 %---------------------------------------------------------------------------------

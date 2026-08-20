@@ -46,6 +46,7 @@
 
 
 % Zitation
+
 \usepackage{csquotes}
 
 \usepackage[
@@ -62,14 +63,39 @@
 
 
 \AtEveryCite{\renewbibmacro*{name:andothers}{}}
+
 \DefineBibliographyStrings{ngerman}{andothers = {et\addabbrvspace al\adddot}}
-\DeclareDelimFormat{finalnamedelim}{\space und\space}
+
 \renewcommand*{\postnotedelim}{\addcolon\space}
+
 \renewcommand*{\multicitedelim}{\addsemicolon\space}
+
 \DeclareFieldFormat{postnote}{S.#1}
+
 \DeclareFieldFormat[book,thesis]{title}{\mkbibemph{#1}}
-\DeclareFieldFormat[article]{title}{\mkbibquote{#1}}
-\DeclareNameAlias{author}{family-given}
+
+\DeclareFieldFormat[article,inbook,incollection,inproceedings,inreference,online,report,misc]{title}{#1}
+
+\DeclareDelimFormat{finalnamedelim}{\space/\space}
+
+\DeclareDelimFormat{multinamedelim}{\space/\space}
+
+\DeclareNameFormat{author}{\ifnum\value{listcount}=1
+\nameparts{#1}
+\usebibmacro{name:family-given}
+{\namepartfamily}
+{\namepartgiven}
+{\namepartprefix}
+{\namepartsuffix}
+\else
+\nameparts{#1}
+\usebibmacro{name:given-family}
+{\namepartfamily}
+{\namepartgiven}
+{\namepartprefix}
+{\namepartsuffix}\fi\ifboolexpr{test {\ifnumcomp{\value{listcount}}{=}{\value{liststop}}}
+and test {\ifmorenames}}{\ifnumgreater{\value{liststop}}{1}{\finalnamedelim}{}\usebibmacro{name:andothers}}{}}
+
 \DeclareNameAlias{editor}{family-given}
 \setlength{\bibhang}{1.25cm}
 \setlength{\bibitemsep}{0.5\baselineskip}
@@ -81,7 +107,10 @@
 \renewcommand*{\bibfont}{\fontsize{11pt}{14pt}\selectfont}
 \newcommand{\ebd}[1][]{\text{(ebd.\if\relax\detokenize{#1}\relax\else~S.#1\fi)}}
 \AtBeginBibliography{\interlinepenalty=10000}
+\AtEveryBibitem{\clearfield{doi}\clearfield{issn}}
 \addbibresource{../Quellen/Quellen.bib}
+
+
 
 
 %---------------------------------------------------------------------------------
@@ -180,9 +209,6 @@ mit genauer Quellenangabe kenntlich gemacht habe.\\[0.8cm]
 
 \section{}
 
-
-ihaEWBGFOAHBGO \Citep{Quillen_2021}.
-\ebd[7].
 
 
 

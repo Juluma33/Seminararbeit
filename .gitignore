@@ -12,3 +12,4 @@
 *.run.xml
 *.bcf
 *.lof
+*.synctex(busy)

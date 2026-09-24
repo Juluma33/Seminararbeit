@@ -61,7 +61,7 @@
 \usepackage{csquotes}
 
 \usepackage[
-    style=authoryear,
+    style=authoryear-ibid,
     backend=biber,
     natbib=true,
     maxcitenames=1,
@@ -69,6 +69,8 @@
     maxbibnames=3,
     minbibnames=3,
     citetracker=context,
+    ibidtracker=constrict,
+    ibidpage=true,
     giveninits=true,
     uniquelist=false
 ]{biblatex}
@@ -83,6 +85,8 @@
 \renewcommand*{\multicitedelim}{\addsemicolon\space}
 
 \DeclareFieldFormat{postnote}{S.#1}
+
+\DefineBibliographyStrings{ngerman}{ibidem = {ebd\adddot}}
 
 \DeclareFieldFormat[book,thesis]{title}{\mkbibemph{#1}}
 
@@ -117,7 +121,6 @@ and test {\ifmorenames}}{\ifnumgreater{\value{liststop}}{1}{\finalnamedelim}{}\u
 \ExecuteBibliographyOptions{uniquename=false}
 \DefineBibliographyStrings{ngerman}{urlseen = {Zugriff am}}
 \renewcommand*{\bibfont}{\fontsize{11pt}{14pt}\selectfont}
-\newcommand{\ebd}[1][]{\text{(ebd.\if\relax\detokenize{#1}\relax\else~S.#1\fi)}}
 \AtBeginBibliography{\interlinepenalty=10000}
 \AtEveryBibitem{\clearfield{doi}\clearfield{issn}}
 \addbibresource{../Quellen/Quellen.bib}
@@ -242,16 +245,16 @@ die sich in der dritten Phase der Kraterentstehung formen (siehe Kapitel \ref{su
 Ein anschauliches Beispiel für einen Krater mit Zentralberg ist der Tooting-Krater (siehe Abb.\ref{pic:tooting}).
 Der auf dem Mars, in der Amazonis Planitia,
 westlich des Olympus Mons, liegende Krater besitze einen Radius von 29~km und
-einen $\sim$1100~m hohen Zentralberg \citep[1615, 1616, 1619]{Mouginis-Mark_2012}.
-Das umliegende Terrain und das juge Alter des Kraters, macht exakte Tiefenmessungen möglich \ebd[1616].
+einen $\sim$1100~m hohen Zentralberg \parencite[1615, 1616, 1619]{Mouginis-Mark_2012}.
+Das umliegende Terrain und das juge Alter des Kraters, macht exakte Tiefenmessungen möglich \parencite[1616]{Mouginis-Mark_2012}.
 so liegt der Kraterboden der südlichen Kraterhälfte $~\sim$1275~m unter dem umliegenden Terrain und
-der nördliche Kraterboden auf $\sim$1080~m (siehe Abb.\ref{pic:tooting})\citep[1]{Mouginis-Mark_2015}.
+der nördliche Kraterboden auf $\sim$1080~m (siehe Abb.\ref{pic:tooting})\parencite[1]{Mouginis-Mark_2015}.
 
 Der Zentralberg des Tooting-Kraters liegt 119~m unterhalb der Kraterumgebung und
-768~m unterhalb der durschnittlichen Randkamms des Kraters \ebd[].
+768~m unterhalb der durschnittlichen Randkamms des Kraters \parencite[1]{Mouginis-Mark_2015}.
 Der Tooting-Krater zeichnet sich durch mehrere sekundäre Bergspitzen aus.
-Die zentrale Spitze erreicht eine Höhe von 1110~m über dem Kraterboden \ebd[],
-Die Sekundären Spitzen 149 und 147~m unterhalb dieser \citep[1619]{Mouginis-Mark_2012}.
+Die zentrale Spitze erreicht eine Höhe von 1110~m über dem Kraterboden \parencite[1]{Mouginis-Mark_2015},
+Die Sekundären Spitzen 149 und 147~m unterhalb dieser \parencite[1619]{Mouginis-Mark_2012}.
 
 
 \begin{center}
@@ -277,13 +280,13 @@ Das Ergebnis der Kontakt und Kompressionsphase, sowie der Aushölungsphase ist e
 Das Ausmaß der dritten Phase, der Modifikationsphase, ist für uns interessant und von der Größe des Kraters abhängig.
 Die instabile Kraterform führt bei kleineren Kratern dazu,
 dass die Kraterrände hinabfallendes Gestein die Form des Kraters abflacht.
-Bei größeren Kratern entsteht eine zentrale Erhebungen durch sich hebendes Gestein \citep[10]{Rae_2018}.
+Bei größeren Kratern entsteht eine zentrale Erhebungen durch sich hebendes Gestein \parencite[10]{Rae_2018}.
 Solche Krater werden als komplexe Krater bezeichnet und besitzen abgesehen von Zentralbergen oder Zentralringen
-häufig auch weitläufige terrassenförmige Zonen am Kraterrand, die hier nicht weiter behandelt werden sollen \ebd[].
+häufig auch weitläufige terrassenförmige Zonen am Kraterrand, die hier nicht weiter behandelt werden sollen \parencite[10]{Rae_2018}.
 
 Der Kraterradius, ab dem ein Zentralberg zu finden ist, wird größtenteils von der Größe des Himmelskörpers definiert.
 So beträgt der minimale Radius auf dem Mond $\sim$15~km, auf Mars und Merkur etwa 7~km und auf der Erde $\sim$2-4~km,
-abhängig von vorhandenen Gesteinsarten \ebd[12].
+abhängig von vorhandenen Gesteinsarten \parencite[12]{Rae_2018}.
 
 
 
@@ -292,19 +295,19 @@ abhängig von vorhandenen Gesteinsarten \ebd[12].
 \mysubsection{Zentralringe}
 
 In besonders großen Kratern wird der Zentralberg zu hoch, um stabil zu bleiben und
-kollabiert zu einem Zentralring \citep[115]{Rae_2018}.
+kollabiert zu einem Zentralring \parencite[115]{Rae_2018}.
 Diese ringförmigen Reliefs existieren sowohl auf anderen Himmelskörpern aus auch auf der Erde.
 Der Chicxulub-Krater auf der Yucatán-Halbinsel in Mexico besitzt einen Durchmesser von etwa 180~km und
-einen 400~m hohen Zentralring \citep[100]{Rae_2018}. Der $\sim$65,5 Millionen Jahre alte Krater entstand durch
+einen 400~m hohen Zentralring \parencite[100]{Rae_2018}. Der $\sim$65,5 Millionen Jahre alte Krater entstand durch
 den Asteroiden, welcher das Massenaussterbens am Ende der Kreidezeit verursachte und
-unter Anderem zum Aussterben der Dinosaurier führte \citep[1214]{Schulte_2010}.
+unter Anderem zum Aussterben der Dinosaurier führte \parencite[1214]{Schulte_2010}.
 
 Der instabile Zentralberg hat nach Berechnungen seine maximale Höhe nach $\sim$200~s erreicht und
-kollabierte dann zu dem heutigen Zentralring mit 80-90~km Durchmesser \citep[100, 113]{Rae_2018}.
-Dessen Gestein findet sich nur zwischen 30 und 45~km entfernt von der Kratermitte \ebd[113].
+kollabierte dann zu dem heutigen Zentralring mit 80-90~km Durchmesser \parencite[100, 113]{Rae_2018}.
+Dessen Gestein findet sich nur zwischen 30 und 45~km entfernt von der Kratermitte \parencite[113]{Rae_2018}.
 Auch beweist die Existenz von kristallienen Quarzstrukuren im Zentralring ein Anheben dieses
 Gesteins während der Modifikationsphase
-von mehr als 2~km \ebd[102 f.].
+von mehr als 2~km \parencite[102 f.]{Rae_2018}.
 
 
 
@@ -320,14 +323,14 @@ von mehr als 2~km \ebd[102 f.].
 Eines der mysteriösesten Objekte im Sonnensystem ist der Äquatorialkamm des Saturnmondes Iapetus
 (siehe Abb.\ref{pic:iapetus}).
 Auf Bildern der 2004 am Iapetus vorbeigeflogene Cassini-Sonde ist ein Gebirgsring am Äquator
-des Mondes zu sehen \citep[1237]{Porco_2005}.
-Dieser bis zu 20~km hohe Äquatorialring \ebd[1241] erstreckt sich nicht durchgehend über
-mindestens 75\% des Umfangs von Iapetus \citep{Dombard_2008}.
+des Mondes zu sehen \parencite[1237]{Porco_2005}.
+Dieser bis zu 20~km hohe Äquatorialring erstreckt sich über
+mindestens 75\% des Umfangs von Iapetus \parencites[2262]{Dombard_2008}[1241]{Porco_2005}.
 
 Der Gebirgsring ist zusammen mit der Cassini-Region, einer im Vergleich zu Iapetus restlicher Oberfläche
-etwa um den Faktor zehn dunklere Region \citep[1241]{Porco_2005},
-eines der ältesten Merkmale des Iapetus \citep[361]{Giese_2008}.
-Da er in manchen Regionen aus drei parallel verlaufenden Berggraten besteht \citep[1242]{Porco_2005},
+etwa um den Faktor zehn dunklere Region,
+eines der ältesten Merkmale des Iapetus \parencites[361]{Giese_2008}[1241]{Porco_2005}.
+Da er in manchen Regionen aus drei parallel verlaufenden Berggraten besteht \parencite[1242]{Porco_2005},
 gibt es viel Diskurs zu seiner Entstehung.
 
 
@@ -366,25 +369,25 @@ und die Entstehung durch einen Einschlag eines anderen Körpers auf dem Iapetus
 \mysubsubsection{Verlangsamen der Rotationsgeschwindigkeit des Iapetus}
 
 Bereits kurz nach der Entdeckung des Iapetus wurde die Möglichkeit der Entstehung des Kamms
-durch ein Verlangsamen der Rotationsgeschwindigkeit des Iapetus aufgebracht \citep[1242]{Porco_2005}.
-Begründet wurde dies durch seine äquatoriale Position \ebd[].
+durch ein Verlangsamen der Rotationsgeschwindigkeit des Iapetus aufgebracht \parencite[1242]{Porco_2005}.
+Begründet wurde dies durch seine äquatoriale Position \parencite[1242]{Porco_2005}.
 
-Bei genauerer Betrachtung weißt der Iapetus eine Äquatoriale Ausbeulung vor \citep[182]{Castillo-Rogez_2007}.
+Bei genauerer Betrachtung weißt der Iapetus eine Äquatoriale Ausbeulung vor \parencite[182]{Castillo-Rogez_2007}.
 Der Durchmesser von Pol zu Pol ist somit kleiner als der Durchmesser in der Äquatorebene.
 Aufgrund der aktuellen Dichte und Rotationsgeschwindigkeit des Mondes sollte es eine Abweichung
-von durchschnittlich $\sim$10~m zwischen diesen beiden Durchmessern geben \citep[580]{Thomas_2007}.
+von durchschnittlich $\sim$10~m zwischen diesen beiden Durchmessern geben \parencite[580]{Thomas_2007}.
 Die gemessene 35~km-Differenz ist in Iapetus Fall durch die Zentrifugalkraft bei einer Rotationsdauer
-von $\sim$16~h zu erklären \ebd[]. Jedoch besitzt der Iapetus heute eine
-Rotationsdauer von 79,33 Tagen \citep[180]{Castillo-Rogez_2007}.
+von $\sim$16~h zu erklären \parencite[580]{Thomas_2007}. Jedoch besitzt der Iapetus heute eine
+Rotationsdauer von 79,33 Tagen \parencite[180]{Castillo-Rogez_2007}.
 
 Die Form des Mondes und sein Äquatorialkamm ist nach dieser Theorie durch eine hohe Rotationsgeschwindigkeit 
-entstanden \ebd[182]. Damit diese durch Zentrifugalkraft stabil gehaltene Form nicht aufgrund der Verlangsamung
+entstanden \parencite[182]{Castillo-Rogez_2007}. Damit diese durch Zentrifugalkraft stabil gehaltene Form nicht aufgrund der Verlangsamung
 der Rotationsgeschwindigkeit zusammenfällt, muss die vorher dünne Lithosphäre dick genug werden um stabil genug 
-zu werden um die Form des Iapetus aufrecht zu erhalten \ebd[198].
+zu werden um die Form des Iapetus aufrecht zu erhalten \parencite[198]{Castillo-Rogez_2007}.
 
 Somit folgt dem initialen Verformen des Iapetus aufgrund von Rotationsgeschwindigkeit und einer dünnen Lithosphäre
 eine Phase des Abbremsens der Rotationsgeschwindigkeit mit gleichzeitiger Verdickung der Lithosphäre.
-Wobei dieses Abbremsen nicht-linearer sein darf, um diesen Prozess zu erklären \ebd[].
+Wobei dieses Abbremsen nicht-linearer sein darf, um diesen Prozess zu erklären \parencite[198]{Castillo-Rogez_2007}.
 
 
 
@@ -397,21 +400,21 @@ von Iapetus wurde die extrinsische Theorie eines Ringsystems vorgeschlagen.
 Diese basiert auf den Funden von natürlichen Satelliten, die größere Objekte im Kuipergürtel umkreisen \citep[4]{Ip_2006}.
 Das Ringsystem existiert nach dieser Theorie zu einer Zeit, wo die Oberfläche
 des Iapetus weitgehend ausgehärtet ist, sodass die hinabfallenden Ringbestandteile sich nach und nach
-zum heutigen Äquatorialkamm anhäufen konnten \ebd[3]. Das ursprüngliche System müsste eine
-Masse von $\sim$0,1\% von der des Iapetus besitzen \ebd[].
+zum heutigen Äquatorialkamm anhäufen konnten \citep[3]{Ip_2006}. Das ursprüngliche System müsste eine
+Masse von $\sim$0,1\% von der des Iapetus besitzen \citep[3]{Ip_2006}.
 
 Das Existieren eines Ringsystems wird von der Größe des Iapetus begünstigt.
 Denn der Iapetus besitzt eine vergleichsweise Hill-Sphäre, also der Bereich um einen Himmelskörper,
-in dem seine Anziehungskraft gegenüber anderen Körpern überwiegt \ebd[2].
+in dem seine Anziehungskraft gegenüber anderen Körpern überwiegt \citep[2]{Ip_2006}.
 
 Die einzelnen Ringobjekte müssen auf ihrer Bahn abgebremst werden, um auf den Mond zu fallen.
 Dies geschieht einerseits durch Kollisionen zwischen den Objekten und andererseits durch die Annahme,
-dass der Iapetus zu der Zeit eine dünnen Atmosphäre besaß, welche die Objekte durch Reibung abbremst \ebd[3].
+dass der Iapetus zu der Zeit eine dünnen Atmosphäre besaß, welche die Objekte durch Reibung abbremst \citep[3]{Ip_2006}.
 
-Alle anderen Monde des Saturn besitzen eine Inklination, also Bahnneigung, von $\sim$0\degree \ebd[4].
+Alle anderen Monde des Saturn besitzen eine Inklination, also Bahnneigung, von $\sim$0\degree \citep[4]{Ip_2006}.
 Die Inklination des Iapetus liegt währenddessen bei $\sim$7,49\degree \citep[180]{Castillo-Rogez_2007}.
 \citeauthor{Ip_2006} bringt die Möglichkeit einer Kollision mit einem anderen Himmelskörper als Hintergrund
-der Inklinationsanomalie und des Ringsystems auf \ebd[]. Demnach ist der Ring nicht wie in seiner Theorie
+der Inklinationsanomalie und des Ringsystems auf \parencite[4]{Ip_2006}. Demnach ist der Ring nicht wie in seiner Theorie
 ein Überrest der Entstehung des Iapetus sondern impaktgeneriert ist. Diese Beobachtung führe zur weiteren Untersuchung
 dieser Möglichkeit (siehe Kapitel \ref{subsubsec:Impaktbedingte Entstehung des Äquatorialkamms}).
 
@@ -422,19 +425,19 @@ dieser Möglichkeit (siehe Kapitel \ref{subsubsec:Impaktbedingte Entstehung des 
 
 Um die Schwächen der vorangegangenen Theorien zu umgehen, wurde ein Aufwölben der Lithosphäre,
 also der äußersten Gesteinshülle, als Entstehungsmechanismus in Betracht gezogen.
-So besitzt der Äquatorialkamm eine komplexe, sich über seine Länge ändernde Form \citep[365]{Giese_2008}.
+So besitzt der Äquatorialkamm eine komplexe, sich über seine Länge ändernde Form \parencite[365]{Giese_2008}.
 Die an einigen Stellen vorkommenden flachen Bergspitzen mit scharfen Kanten an ihren Seiten sind
-nicht durch die Theorie eines Ringsystems erklärbar (siehe Kapitel \ref{subsubsec:Ein uraltes Ringsystem}) \ebd[].
-Auch sprechen Ausgedehnte parallel zum Kamm verlaufende Senken für ein verbiegen der Lithosphäre \ebd[364].
+nicht durch die Theorie eines Ringsystems erklärbar (siehe Kapitel \ref{subsubsec:Ein uraltes Ringsystem}) \parencite[365]{Giese_2008}.
+Auch sprechen Ausgedehnte parallel zum Kamm verlaufende Senken für ein verbiegen der Lithosphäre \parencite[364]{Giese_2008}.
 
 Des Weiteren wäre bei einem aus kleinen Ringbestandteilen bestehendem Kamm eine Steigung
-nahe der maximalen Steigung, wo ein solcher Berghang stabil bleiben würde, zu erwarten \ebd[].
+nahe der maximalen Steigung, wo ein solcher Berghang stabil bleiben würde, zu erwarten \parencite[364]{Giese_2008}.
 Dies ist gerade bei den unteren Hängen nicht der Fall und die geringe Steigung spricht eher 
-für einen intrinsischen Mechanismus \ebd[].
+für einen intrinsischen Mechanismus \parencite[364]{Giese_2008}.
 
 Am wahrscheinlichsten ist ein zwei-Zellen-Konvektionsmuster, welches tiefliegendes Gestein Richtung
-Oberfläche schiebt und die Lithosphäre zu einem äquatoriellen Bergsystem aufwölbt \citep[64, 65, 68]{Czechowski_2008}.
-Angetrieben wird dieser Mechanismus von Abwärme durch radioaktiven Zerfall im Inneren des Iapetus \ebd[64].
+Oberfläche schiebt und die Lithosphäre zu einem äquatoriellen Bergsystem aufwölbt \parencite[64, 65, 68]{Czechowski_2008}.
+Angetrieben wird dieser Mechanismus von Abwärme durch radioaktiven Zerfall im Inneren des Iapetus \parencite[64]{Czechowski_2008}.
 
 
 
@@ -470,15 +473,15 @@ Vulkanismus ist ein relativ weit verbreitetes Phänomen in unserem Sonnensystem.
 Nicht nur gibt es aktiven Vulkanismus auf der Erde
 (siehe Kapitel \ref{subsec:Vulkanismus auf der Erde}),
 sondern auch auf der Venus und dem Jupitermond Io
-(siehe Kapitel\ref{subsec:Vulkanismus auf dem Io}) \citep[687]{Sigurdsson_2015}.
+(siehe Kapitel\ref{subsec:Vulkanismus auf dem Io}) \parencite[687]{Sigurdsson_2015}.
 Auf dem Mars existieren die höchsten Vulkane des Sonnensystems, wie der Olympus Mons
-(siehe Kapitel \ref{subsec:Vulkanismus auf dem Mars}) \ebd[],
+(siehe Kapitel \ref{subsec:Vulkanismus auf dem Mars}) \parencite[687]{Sigurdsson_2015},
 und die Venus zeigt Anzeichen von aktuellen vulkanischen Prozessen
 (siehe Kapitel \ref{subsec:Vulkanismus auf der Venus}).
 
 Auch zeugen große vulkanisch Ebenen auf unserem Mond und dem Merkur von einer
 aktiven geologischen Frühgeschichte dieser Himmelskörper
-(siehe Kapitel \ref{subsec:Basaltebenen auf Mond und Merkur}) \citep[687]{Sigurdsson_2015}.
+(siehe Kapitel \ref{subsec:Basaltebenen auf Mond und Merkur}) \parencite[687]{Sigurdsson_2015}.
 
 
 
@@ -490,16 +493,16 @@ umfassend erforscht und verstanden.
 
 An den Orten im äußeren Erdmantel, an dem sich Hitze anstaut, sogenannten Hotspots,
 schmilzt das Gestein mit der geringsten
-Schmelztemperatur und sammelt sich in größeren Reservoir \citep{USGS_Volcanism}.
+Schmelztemperatur und sammelt sich in größeren Reservoir \parencite{USGS_Volcanism}.
 Überdruck in diesen Kammern drückt das geschmolzene Gestein, Magma genannt, durch strukturell
-schwache Zonen und Risse im Gestein bis an die Oberfläche \ebd[].
+schwache Zonen und Risse im Gestein bis an die Oberfläche \parencite{USGS_Volcanism}.
 Sobald die Magma an die Oberfläche tritt wird sie Lava genannt und es handelt sich um eine Eruption.
 Diese kann entweder explosiv unter Bildung von Lavafontänen oder nicht-explosiv als \glqq herausfließen\grqq aus
-dem Gestein geschehen \ebd[].
+dem Gestein geschehen \parencite{USGS_Volcanism}.
 
-Der Vulkan selbst bildet sich aus diesem sich nach und nach anhäufendem Gestein \ebd[].
+Der Vulkan selbst bildet sich aus diesem sich nach und nach anhäufendem Gestein \parencite{USGS_Volcanism}.
 Die Inselkette Hawaii ist beispielsweise vulkanischen Ursprungs und beherbergt
-Vulkane, die sich bis zu 9~km über den Meeresboden erstrecken \citep{Fraknoi_2022}.
+Vulkane, die sich bis zu 9~km über den Meeresboden erstrecken \parencite{Fraknoi_2022}.
 
 
 
@@ -519,39 +522,39 @@ Vulkane, die sich bis zu 9~km über den Meeresboden erstrecken \citep{Fraknoi_20
 \mysubsection{Vulkanismus auf der Venus}
 
 Die Venus ist in etwa so groß wie die Erde und besitzt durch ihren Aufbau und Stärke der
-Gravitation die Voraussetzungen für lange anhaltenden Vulkanismus \citep[67]{Ivanov_2013}.
+Gravitation die Voraussetzungen für lange anhaltenden Vulkanismus \parencite[67]{Ivanov_2013}.
 Aufgrund dieser Eigenschaften und ihrer dicken Atmosphäre als Schwesterplanet der Erde bezeichnet,
 ist die Venus dennoch sehr lebensunfreundlich. Die Oberflächentemperatur beträgt 460\celsius, weshalb
 heutzutage keine Wasser mehr existiert und die unter einem Druck von 90~bar stehende Atmosphäre und
-Oberfläche sehr trocken sind \citep[606]{Smrekar_2010}.
+Oberfläche sehr trocken sind \parencite[606]{Smrekar_2010}.
 Hierdurch sind auch für den Vulkanismus vollständig andere Bedingungen gegeben.
 
-Rund 80\% der venusischen Oberfläche bestehen aus vulkanischem Material \ebd[67].
+Rund 80\% der venusischen Oberfläche bestehen aus vulkanischem Material \parencite[67]{Ivanov_2013}.
 Dies liegt an einer globalen Oberflächenerneuerung, einem starken vulkanischen Event, bei dem innerhalb
-der letzten 100 Millionen Jahre fast die gesamte Oberfläche der Venus erneuert wurde \citep[42]{Nimmo_1998}.
-Ob es sich um ein kurzes Extremereignis oder einen langen Prozess handelte ist unbekannt \ebd[40].
-Bekannt ist, dass die geologische Aktivität der Venus seitdem zurückgegangen ist \ebd[].
+der letzten 100 Millionen Jahre fast die gesamte Oberfläche der Venus erneuert wurde \parencite[42]{Nimmo_1998}.
+Ob es sich um ein kurzes Extremereignis oder einen langen Prozess handelte ist unbekannt \parencite[40]{Nimmo_1998}.
+Bekannt ist, dass die geologische Aktivität der Venus seitdem zurückgegangen ist \parencite[40]{Nimmo_1998}.
 
-Vulkanische Ebenen sind die weiterbreitetsten vulkanischen Strukturen auf der Venus \citep[68]{Ivanov_2013}.
+Vulkanische Ebenen sind die weiterbreitetsten vulkanischen Strukturen auf der Venus \parencite[68]{Ivanov_2013}.
 Auch Schildvulkane sind bekannt, die im Vergleich zur Erde deutlich größer und mit einer Hangsteigung von
-<3\degree auch flacher sind \citep[2]{Mason_2025}.
+<3\degree auch flacher sind \parencite[2]{Mason_2025}.
 Der Ozza Mons zeigt genau diese geringe Steigung. Er ist mit 7,5~km ein mittelhoher Vulkan der Venus, aber
-1000~x~800~km breit \ebd[12].
-Der Maat Mons ist der doppelten Höhe des Ozza Mons der höchste Vulkan der Venus, allerdings weniger breit \ebd[13].
+1000~x~800~km breit \parencite[12]{Mason_2025}.
+Der Maat Mons ist der doppelten Höhe des Ozza Mons der höchste Vulkan der Venus, allerdings weniger breit \parencite[13]{Mason_2025}.
 
 Der Grund für das große Ausmaß der Schildvulkane ist die Abwesenheit von starker Plattentektonik,
-wie der auf der Erde \citep[2f.]{Nimmo_1998}.
+wie der auf der Erde \parencite[2f.]{Mason_2025}.
 Durch die weniger dichte Lithosphäre wird Subduction, also ein Abtauchen von Teilen der Lithosphäre unter
-Anderen Teilen, verhindert und die Lithosphäre ist weniger Mobil \ebd[40].
+Anderen Teilen, verhindert und die Lithosphäre ist weniger Mobil \parencite[40]{Nimmo_1998}.
 Somit ergibt sich ein sich langsam über einen stationären Hotspot verschiebender Vulkanismus 
 mit vergleichsweise großen Schildvulkanen \parencites[17]{Mason_2025}[2f.]{Nimmo_1998}.
 
-Die Venus gilt auch aktuell noch als vulkanisch aktiver Himmelskörper \citep[607]{Smrekar_2010}.
+Die Venus gilt auch aktuell noch als vulkanisch aktiver Himmelskörper \parencite[607]{Smrekar_2010}.
 Durch Aufnahmen im Infrarotbereich durch die Venus Express Sonde konnten verschiedene Bereiche mit hoher
-Emission von Infrarotstrahlung indentifiziert werden \ebd[605, 606].
-Da einige dieser Orte Vulkane, wie der Idunn Mons oder Hathor Mons sind \ebd[606], ist eine rezente vulkanische
+Emission von Infrarotstrahlung indentifiziert werden \parencite[605, 606]{Smrekar_2010}.
+Da einige dieser Orte Vulkane, wie der Idunn Mons oder Hathor Mons sind \parencite[606]{Smrekar_2010}, ist eine rezente vulkanische
 Aktivität auf der Venus sehr wahrscheinlich. Auch zeigt ein relativ junker Gesteinsstrom in der Themis Region
-hohe Emissionsraten, was diese Annahme weiter untermauert \ebd[].
+hohe Emissionsraten, was diese Annahme weiter untermauert \parencite[606]{Smrekar_2010}.
 
 
 

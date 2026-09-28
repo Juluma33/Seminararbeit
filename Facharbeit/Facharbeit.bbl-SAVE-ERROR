@@ -1,0 +1,1866 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{Castillo-Rogez_2007}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=c17e7653e1927b3523ae4070a4f61d7f}{%
+           family={Castillo-Rogez},
+           familyi={C\bibinithyphendelim R\bibinitperiod},
+           given={J.C.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b43f406ef7d56dd2e8249a9d187ba14f}{%
+           family={Matson},
+           familyi={M\bibinitperiod},
+           given={D.L.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a719758d9d892414038a394216554c6b}{%
+           family={Sotin},
+           familyi={S\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=24a2b48fef5ee0bd7d5945ef3bb42074}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={T.V.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=841b0342cb51fe517d9dca79608cddc2}{%
+           family={Lunine},
+           familyi={L\bibinitperiod},
+           given={J.I.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8f44f492d17c61c740d04d7b7b454e34}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={P.C.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{e82608a873c18114da0b2d4627a25d25}
+      \strng{fullhash}{c67f229aa54dc4835609bdca75ee7d3e}
+      \strng{fullhashraw}{c67f229aa54dc4835609bdca75ee7d3e}
+      \strng{bibnamehash}{01e75f2bcf45d0d255ff6b03c73a7646}
+      \strng{authorbibnamehash}{01e75f2bcf45d0d255ff6b03c73a7646}
+      \strng{authornamehash}{e82608a873c18114da0b2d4627a25d25}
+      \strng{authorfullhash}{c67f229aa54dc4835609bdca75ee7d3e}
+      \strng{authorfullhashraw}{c67f229aa54dc4835609bdca75ee7d3e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Icarus}
+      \field{number}{1}
+      \field{title}{Iapetus' geophysics: Rotation rate, shape, and equatorial ridge}
+      \field{volume}{190}
+      \field{year}{2007}
+      \field{pages}{179\bibrangedash 202}
+      \range{pages}{24}
+    \endentry
+    \entry{Czechowski_2008}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=0ac8c2407e81b4d0931b56a9a38e8fda}{%
+           family={Czechowski},
+           familyi={C\bibinitperiod},
+           given={Leszek},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c5d9cd8086be7e32ef9845983cae216b}{%
+           family={Leliwa-Kopystynski},
+           familyi={L\bibinithyphendelim K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{38d97e49b204701f3dbffac980de55ff}
+      \strng{fullhash}{32d79d551228155f76d293367c7f1eb9}
+      \strng{fullhashraw}{32d79d551228155f76d293367c7f1eb9}
+      \strng{bibnamehash}{32d79d551228155f76d293367c7f1eb9}
+      \strng{authorbibnamehash}{32d79d551228155f76d293367c7f1eb9}
+      \strng{authornamehash}{38d97e49b204701f3dbffac980de55ff}
+      \strng{authorfullhash}{32d79d551228155f76d293367c7f1eb9}
+      \strng{authorfullhashraw}{32d79d551228155f76d293367c7f1eb9}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Space Research - ADV SPACE RES}
+      \field{title}{The Iapetus’s ridge: Possible explanations of its origin}
+      \field{volume}{42}
+      \field{year}{2008}
+      \field{pages}{61\bibrangedash 69}
+      \range{pages}{9}
+    \endentry
+    \entry{Damptz_2018}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=5f16c73bc300b7f1aa894fbfee9ce2ad}{%
+           family={Damptz},
+           familyi={D\bibinitperiod},
+           given={Amanda\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=7684798ec7b2feb9e4ac716c4b7b5460}{%
+           family={Dombard},
+           familyi={D\bibinitperiod},
+           given={Andrew\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=d9763cd67fcef13c3e76344d98e2238e}{%
+           family={Kirchoff},
+           familyi={K\bibinitperiod},
+           given={Michelle\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{107889d2ff94451d4d603d760505f7db}
+      \strng{fullhash}{8d238bda5680a065198ef081e56b111e}
+      \strng{fullhashraw}{8d238bda5680a065198ef081e56b111e}
+      \strng{bibnamehash}{8d238bda5680a065198ef081e56b111e}
+      \strng{authorbibnamehash}{8d238bda5680a065198ef081e56b111e}
+      \strng{authornamehash}{107889d2ff94451d4d603d760505f7db}
+      \strng{authorfullhash}{8d238bda5680a065198ef081e56b111e}
+      \strng{authorfullhashraw}{8d238bda5680a065198ef081e56b111e}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0019-1035}
+      \field{journaltitle}{Icarus}
+      \field{title}{Testing models for the formation of the equatorial ridge on Iapetus via crater counting}
+      \field{volume}{302}
+      \field{year}{2018}
+      \field{pages}{134\bibrangedash 144}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.icarus.2017.10.049
+      \endverb
+    \endentry
+    \entry{Dombard_2008}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=7684798ec7b2feb9e4ac716c4b7b5460}{%
+           family={Dombard},
+           familyi={D\bibinitperiod},
+           given={Andrew\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9c9ce6f087b4a7b0b126d075abf940d8}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a13c1c2845f29a078ba60fbfe51f3272}
+      \strng{fullhash}{c997a9883d16193b384af14c985f5b4e}
+      \strng{fullhashraw}{c997a9883d16193b384af14c985f5b4e}
+      \strng{bibnamehash}{c997a9883d16193b384af14c985f5b4e}
+      \strng{authorbibnamehash}{c997a9883d16193b384af14c985f5b4e}
+      \strng{authornamehash}{a13c1c2845f29a078ba60fbfe51f3272}
+      \strng{authorfullhash}{c997a9883d16193b384af14c985f5b4e}
+      \strng{authorfullhashraw}{c997a9883d16193b384af14c985f5b4e}
+      \field{extraname}{1}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Lunar and Planetary Science Conference}
+      \field{title}{Constraints on the Evolution of Iapetus from Simulations of Its Ridge and Bulge}
+      \field{year}{2008}
+    \endentry
+    \entry{Dombard_2012}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=7684798ec7b2feb9e4ac716c4b7b5460}{%
+           family={Dombard},
+           familyi={D\bibinitperiod},
+           given={Andrew\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=464f50a1ddd877fa8f8befa684320cf2}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Andrew\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=47d3443372aff77de44b633b02fb4f39}{%
+           family={McKinnon},
+           familyi={M\bibinitperiod},
+           given={William\bibnamedelima B.},
+           giveni={W\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=375a81055d7597e6d5b2db6db705b691}{%
+           family={Kay},
+           familyi={K\bibinitperiod},
+           given={Jonathan\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a13c1c2845f29a078ba60fbfe51f3272}
+      \strng{fullhash}{fd2bd92ff8cd6a49fd458c642c318038}
+      \strng{fullhashraw}{fd2bd92ff8cd6a49fd458c642c318038}
+      \strng{bibnamehash}{01c1b377bfe1ca0f65b118cfd20baf95}
+      \strng{authorbibnamehash}{01c1b377bfe1ca0f65b118cfd20baf95}
+      \strng{authornamehash}{a13c1c2845f29a078ba60fbfe51f3272}
+      \strng{authorfullhash}{fd2bd92ff8cd6a49fd458c642c318038}
+      \strng{authorfullhashraw}{fd2bd92ff8cd6a49fd458c642c318038}
+      \field{extraname}{2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Geophysical Research: Planets}
+      \field{number}{E3}
+      \field{title}{Delayed formation of the equatorial ridge on Iapetus from a subsatellite created in a giant impact}
+      \field{volume}{117}
+      \field{year}{2012}
+    \endentry
+    \entry{Fraknoi_2022}{online}{}{}
+      \name{author}{28}{}{%
+        {{hash=6de15eb6e63d6df02265337cbf0c7326}{%
+           family={Fraknoi},
+           familyi={F\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2a32e51f5523339786935473f1c04b37}{%
+           family={Morrison},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=688725c46d3cb6e79c14ac27d4c97a51}{%
+           family={Wolff},
+           familyi={W\bibinitperiod},
+           given={Sidney},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0930534f19637b6f9e9cb56dd6a05806}{%
+           family={Beck},
+           familyi={B\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5e870551db83d8ec47daeb29eecc6251}{%
+           family={Benecchi},
+           familyi={B\bibinitperiod},
+           given={Susan\bibnamedelima D.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=1d85f70f9381f83e26289880803c0307}{%
+           family={Bochanski},
+           familyi={B\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c775ca1d16104e127a5873c6d9d28f3b}{%
+           family={Bond},
+           familyi={B\bibinitperiod},
+           given={Howard},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6ac2ecead72a740379c96354deadab91}{%
+           family={Carson},
+           familyi={C\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a9c64af5fd65cfde011624ab3d0d5984}{%
+           family={Dunne},
+           familyi={D\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+        {{hash=ca0c8f79ad4d695f0468cf018b59230c}{%
+           family={Elvis},
+           familyi={E\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=77fc69f637a4677c9c5f43406a36a7e9}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Debra},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cb2aa00b0ee1da9d7c478b44f7e8fafb}{%
+           family={Hammel},
+           familyi={H\bibinitperiod},
+           given={Heidi},
+           giveni={H\bibinitperiod}}}%
+        {{hash=26cbacade5e770bc9be27bf86883b665}{%
+           family={Hoehler},
+           familyi={H\bibinitperiod},
+           given={Tori},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c7ff0deb704300fbc0c687f5fa61fb0f}{%
+           family={Ingram},
+           familyi={I\bibinitperiod},
+           given={Douglas},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9a7f5f7b9d9a69a0ba57431602643c9f}{%
+           family={Kawaler},
+           familyi={K\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3d800ef7bb489be0529461c613257849}{%
+           family={Knox},
+           familyi={K\bibinitperiod},
+           given={Lloyd},
+           giveni={L\bibinitperiod}}}%
+        {{hash=29a9ad77d2176bf966cefbc0c05cf4d3}{%
+           family={Krumholz},
+           familyi={K\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=af1039f7be7a5551ac9e8866b731c10a}{%
+           family={Lowenthal},
+           familyi={L\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=76bbdb7dc8847cf89ef23c3590357e6b}{%
+           family={Mathews},
+           familyi={M\bibinitperiod},
+           given={Geoff},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7491434d104f9a5ad4ae806a9878889c}{%
+           family={Morgan},
+           familyi={M\bibinitperiod},
+           given={Siobahn},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f055f3237598f452f1ed0c770fa5d155}{%
+           family={Perley},
+           familyi={P\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d0b4abc63134a086fb78368072e95cbd}{%
+           family={Raftery},
+           familyi={R\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ff1ad3ace4b82b276b80ae4ce181d6bd}{%
+           family={Scherrer},
+           familyi={S\bibinitperiod},
+           given={Deborah},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6ac646a390785353ddf60cacef1f07ea}{%
+           family={Scherrer},
+           familyi={S\bibinitperiod},
+           given={Phillip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a8e0d3b3921c7ba595f99fa3b294d128}{%
+           family={Som},
+           familyi={S\bibinitperiod},
+           given={Sanjoy},
+           giveni={S\bibinitperiod}}}%
+        {{hash=aa1e61eab7c35abb790e510666640ee9}{%
+           family={Tobin},
+           familyi={T\bibinitperiod},
+           given={Wes},
+           giveni={W\bibinitperiod}}}%
+        {{hash=e1fb6b48043333566660f236d5b4f3b4}{%
+           family={Waller},
+           familyi={W\bibinitperiod},
+           given={William\bibnamedelima H.},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=87c4f677de2a433ed0284d31ecb87ef3}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Todd},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {OpenStax}%
+      }
+      \strng{namehash}{21cafdadd3b6a72b59d26c0624c542b1}
+      \strng{fullhash}{6cd4b605917867394e42eb2658b66668}
+      \strng{fullhashraw}{6cd4b605917867394e42eb2658b66668}
+      \strng{bibnamehash}{b7fdc60b1355e1bf523d628edff6f72a}
+      \strng{authorbibnamehash}{b7fdc60b1355e1bf523d628edff6f72a}
+      \strng{authornamehash}{21cafdadd3b6a72b59d26c0624c542b1}
+      \strng{authorfullhash}{6cd4b605917867394e42eb2658b66668}
+      \strng{authorfullhashraw}{6cd4b605917867394e42eb2658b66668}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Astronomy 2e}
+      \field{title}{Earth's Crust}
+      \field{urlday}{18}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://openstax.org/books/astronomy-2e/pages/8-2-earths-crust
+      \endverb
+      \verb{url}
+      \verb https://openstax.org/books/astronomy-2e/pages/8-2-earths-crust
+      \endverb
+    \endentry
+    \entry{Geissler_2008}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=01f9961bd50f5de604b94d5176d47ce3}{%
+           family={Geissler},
+           familyi={G\bibinitperiod},
+           given={P.E.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9dd4dde5e28cb89e0929e3d494e79254}{%
+           family={McMillan},
+           familyi={M\bibinitperiod},
+           given={M.T.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{9bcc532af65a9d2e6a56f86daae75e97}
+      \strng{fullhash}{825ea6ad7839b9fd55cecba9ec62f3b8}
+      \strng{fullhashraw}{825ea6ad7839b9fd55cecba9ec62f3b8}
+      \strng{bibnamehash}{825ea6ad7839b9fd55cecba9ec62f3b8}
+      \strng{authorbibnamehash}{825ea6ad7839b9fd55cecba9ec62f3b8}
+      \strng{authornamehash}{9bcc532af65a9d2e6a56f86daae75e97}
+      \strng{authorfullhash}{825ea6ad7839b9fd55cecba9ec62f3b8}
+      \strng{authorfullhashraw}{825ea6ad7839b9fd55cecba9ec62f3b8}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Icarus}
+      \field{number}{2}
+      \field{title}{Galileo observations of volcanic plumes on Io}
+      \field{volume}{197}
+      \field{year}{2008}
+      \field{pages}{505\bibrangedash 518}
+      \range{pages}{14}
+    \endentry
+    \entry{Giese_2008}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=9f5297156de2d9b96a22d8bbb1254f6d}{%
+           family={Giese},
+           familyi={G\bibinitperiod},
+           given={Bernd},
+           giveni={B\bibinitperiod}}}%
+        {{hash=346ab7d6d261c1e2705e1d2e46499ace}{%
+           family={Denk},
+           familyi={D\bibinitperiod},
+           given={Tilmann},
+           giveni={T\bibinitperiod}}}%
+        {{hash=88fb9578526bebf9827c08290da6b099}{%
+           family={Neukum},
+           familyi={N\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7b8768af68a5ed2e60758e76b8be62d2}{%
+           family={Roatsch},
+           familyi={R\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=201501358ce7df110018a7285309fc37}{%
+           family={Helfenstein},
+           familyi={H\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a814f5ff29dc2092bac1c8b526099178}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Peter\bibnamedelima C.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=ef442f636905bdf8dffed0c7ae6f89fd}{%
+           family={Turtle},
+           familyi={T\bibinitperiod},
+           given={Elizabeth\bibnamedelima P.},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=e3ae6f48cc550a67afa4464f2ad83483}{%
+           family={McEwen},
+           familyi={M\bibinitperiod},
+           given={Alfred},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0e41c05cc50c1f895d9765197b4980b8}{%
+           family={Porco},
+           familyi={P\bibinitperiod},
+           given={Carolyn\bibnamedelima C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{1f1bf331941cd69531596272c472f9a5}
+      \strng{fullhash}{5af3b35960601a0958c7fe1d4e87e91d}
+      \strng{fullhashraw}{5af3b35960601a0958c7fe1d4e87e91d}
+      \strng{bibnamehash}{7101aa629771c846064821ea4d245960}
+      \strng{authorbibnamehash}{7101aa629771c846064821ea4d245960}
+      \strng{authornamehash}{1f1bf331941cd69531596272c472f9a5}
+      \strng{authorfullhash}{5af3b35960601a0958c7fe1d4e87e91d}
+      \strng{authorfullhashraw}{5af3b35960601a0958c7fe1d4e87e91d}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Icarus}
+      \field{number}{193}
+      \field{title}{The topography of Iapetus’ leading side}
+      \field{year}{2008}
+      \field{pages}{359\bibrangedash 371}
+      \range{pages}{13}
+    \endentry
+    \entry{Ip_2006}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=f46c193e40e05ed94434d3aee6becbf9}{%
+           family={Ip},
+           familyi={I\bibinitperiod},
+           given={Wing-Huen},
+           giveni={W\bibinithyphendelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{f46c193e40e05ed94434d3aee6becbf9}
+      \strng{fullhash}{f46c193e40e05ed94434d3aee6becbf9}
+      \strng{fullhashraw}{f46c193e40e05ed94434d3aee6becbf9}
+      \strng{bibnamehash}{f46c193e40e05ed94434d3aee6becbf9}
+      \strng{authorbibnamehash}{f46c193e40e05ed94434d3aee6becbf9}
+      \strng{authornamehash}{f46c193e40e05ed94434d3aee6becbf9}
+      \strng{authorfullhash}{f46c193e40e05ed94434d3aee6becbf9}
+      \strng{authorfullhashraw}{f46c193e40e05ed94434d3aee6becbf9}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{number}{16}
+      \field{title}{On a ring origin of the equatorial ridge of Iapetus}
+      \field{volume}{33}
+      \field{year}{2006}
+    \endentry
+    \entry{Ivanov_2013}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=8c9e04d63c477c20c8628bb1e5246fc0}{%
+           family={Ivanov},
+           familyi={I\bibinitperiod},
+           given={Mikhail\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e81b5dfe0636f6b05d96cffdf0e80818}{%
+           family={Head},
+           familyi={H\bibinitperiod},
+           given={James\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{965a83ad58ab9d647322b6656e05dde7}
+      \strng{fullhash}{5ba141240da010acac5757bbb8d4d07a}
+      \strng{fullhashraw}{5ba141240da010acac5757bbb8d4d07a}
+      \strng{bibnamehash}{5ba141240da010acac5757bbb8d4d07a}
+      \strng{authorbibnamehash}{5ba141240da010acac5757bbb8d4d07a}
+      \strng{authornamehash}{965a83ad58ab9d647322b6656e05dde7}
+      \strng{authorfullhash}{5ba141240da010acac5757bbb8d4d07a}
+      \strng{authorfullhashraw}{5ba141240da010acac5757bbb8d4d07a}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0032-0633}
+      \field{journaltitle}{Planetary and Space Science}
+      \field{title}{The history of volcanism on Venus}
+      \field{volume}{84}
+      \field{year}{2013}
+      \field{pages}{66\bibrangedash 92}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1016/j.pss.2013.04.018
+      \endverb
+    \endentry
+    \entry{Kleer_2024}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=fa504c04ec8be79e3a400e50fd84025d}{%
+           family={Kleer},
+           familyi={K\bibinitperiod},
+           given={Katherine},
+           giveni={K\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=a2d7990409ae1ae28c821c73a7b487bd}{%
+           family={Hughes},
+           familyi={H\bibinitperiod},
+           given={Ery\bibnamedelima C.},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=481069fb1bcfb014c0c6c85c4a37e0d9}{%
+           family={Nimmo},
+           familyi={N\bibinitperiod},
+           given={Francis},
+           giveni={F\bibinitperiod}}}%
+        {{hash=131ecae198c8d0143d69b2669d207977}{%
+           family={Eiler},
+           familyi={E\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5e41d905251af7a961bde2c07eb583f1}{%
+           family={Hofmann},
+           familyi={H\bibinitperiod},
+           given={Amy\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=9668a795d71fe4dabd201dcd8c94a38e}{%
+           family={Luszcz-Cook},
+           familyi={L\bibinithyphendelim C\bibinitperiod},
+           given={Statia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4799a701e8217ec5c76e9273fc12e228}{%
+           family={Mandt},
+           familyi={M\bibinitperiod},
+           given={Kathy},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{286d3770bea5809bfbb2e98e47bd56bc}
+      \strng{fullhash}{1cc7e7acf91e9bcf2d2e0dab94a669f0}
+      \strng{fullhashraw}{1cc7e7acf91e9bcf2d2e0dab94a669f0}
+      \strng{bibnamehash}{552a4d56bfba0216731f13a416785d7b}
+      \strng{authorbibnamehash}{552a4d56bfba0216731f13a416785d7b}
+      \strng{authornamehash}{286d3770bea5809bfbb2e98e47bd56bc}
+      \strng{authorfullhash}{1cc7e7acf91e9bcf2d2e0dab94a669f0}
+      \strng{authorfullhashraw}{1cc7e7acf91e9bcf2d2e0dab94a669f0}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{6696}
+      \field{title}{Isotopic evidence of long-lived volcanism on Io}
+      \field{volume}{384}
+      \field{year}{2024}
+      \field{pages}{682\bibrangedash 687}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1126/science.adj0625
+      \endverb
+    \endentry
+    \entry{Mason_2025}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=f84c3b763e9f7b9ed48a81db2e63dfcf}{%
+           family={Mason},
+           familyi={M\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=5edc7bb4ecee056e9e7d45f4f4ead296}{%
+           family={Klidaras},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3d4e1e69a3f7f1f0b51151de89034325}{%
+           family={Cirium},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=423c27687efc4e1f623bd832cb3b6682}{%
+           family={Ghail},
+           familyi={G\bibinitperiod},
+           given={R.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=c778c636e8647a6a4c80acde5f36266d}{%
+           family={Lea-Wurzbach},
+           familyi={L\bibinithyphendelim W\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2ec56ece388522089a68ea9d11185ac9}
+      \strng{fullhash}{805da08e539e2021a9910719644eabce}
+      \strng{fullhashraw}{805da08e539e2021a9910719644eabce}
+      \strng{bibnamehash}{8b40df47ac6303b86dec2a7a3d10745d}
+      \strng{authorbibnamehash}{8b40df47ac6303b86dec2a7a3d10745d}
+      \strng{authornamehash}{2ec56ece388522089a68ea9d11185ac9}
+      \strng{authorfullhash}{805da08e539e2021a9910719644eabce}
+      \strng{authorfullhashraw}{805da08e539e2021a9910719644eabce}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Geophysical Research: Planets}
+      \field{number}{2}
+      \field{title}{Evolution of Plume Volcanism at Atla Regio, Venus}
+      \field{volume}{130}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.1029/2024JE008815
+      \endverb
+    \endentry
+    \entry{Mouginis-Mark_2015}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=6a663225348c702317188e601d4d8dab}{%
+           family={Mouginis-Mark},
+           familyi={M\bibinithyphendelim M\bibinitperiod},
+           given={Peter\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {U.S. Geological Survey}%
+      }
+      \strng{namehash}{6a663225348c702317188e601d4d8dab}
+      \strng{fullhash}{6a663225348c702317188e601d4d8dab}
+      \strng{fullhashraw}{6a663225348c702317188e601d4d8dab}
+      \strng{bibnamehash}{6a663225348c702317188e601d4d8dab}
+      \strng{authorbibnamehash}{6a663225348c702317188e601d4d8dab}
+      \strng{authornamehash}{6a663225348c702317188e601d4d8dab}
+      \strng{authorfullhash}{6a663225348c702317188e601d4d8dab}
+      \strng{authorfullhashraw}{6a663225348c702317188e601d4d8dab}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Pamphlet to accompany the Geologic Map of Tooting Crater, Amazonis Planitia Region of Mars}
+      \field{series}{Scientific Investigations Map}
+      \field{title}{Geologic Map of Tooting Crater, Amazonis Planitia Region of Mars}
+      \field{type}{techreport}
+      \field{year}{2015}
+    \endentry
+    \entry{Mouginis-Mark_2012}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=6a663225348c702317188e601d4d8dab}{%
+           family={Mouginis-Mark},
+           familyi={M\bibinithyphendelim M\bibinitperiod},
+           given={Peter\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=64c95b881994bc838682659a1cdbc700}{%
+           family={Boyce},
+           familyi={B\bibinitperiod},
+           given={Joseph\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e7628f498b765359a9aba0d1f6cf3773}
+      \strng{fullhash}{be4f461d59704f743afbf29de3af8f0b}
+      \strng{fullhashraw}{be4f461d59704f743afbf29de3af8f0b}
+      \strng{bibnamehash}{be4f461d59704f743afbf29de3af8f0b}
+      \strng{authorbibnamehash}{be4f461d59704f743afbf29de3af8f0b}
+      \strng{authornamehash}{e7628f498b765359a9aba0d1f6cf3773}
+      \strng{authorfullhash}{be4f461d59704f743afbf29de3af8f0b}
+      \strng{authorfullhashraw}{be4f461d59704f743afbf29de3af8f0b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0009-2819}
+      \field{journaltitle}{Meteoritics and Planetary Science}
+      \field{number}{9}
+      \field{title}{Tooting crater: Geology and geomorphology of the archetype large, fresh, impact crater on Mars}
+      \field{volume}{42}
+      \field{year}{2012}
+      \field{pages}{1615\bibrangedash 1625}
+      \range{pages}{11}
+    \endentry
+    \entry{encyclopedia_2001}{book}{}{}
+      \name{editor}{1}{}{%
+        {{hash=a881fd94608a0170ee25d8d25abe0291}{%
+           family={Murdin},
+           familyi={M\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{2}{%
+        {Bristol}%
+        {Philadelphia}%
+      }
+      \list{publisher}{2}{%
+        {Institute of Physics Publishing}%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{a881fd94608a0170ee25d8d25abe0291}
+      \strng{fullhash}{a881fd94608a0170ee25d8d25abe0291}
+      \strng{fullhashraw}{a881fd94608a0170ee25d8d25abe0291}
+      \strng{bibnamehash}{a881fd94608a0170ee25d8d25abe0291}
+      \strng{editorbibnamehash}{a881fd94608a0170ee25d8d25abe0291}
+      \strng{editornamehash}{a881fd94608a0170ee25d8d25abe0291}
+      \strng{editorfullhash}{a881fd94608a0170ee25d8d25abe0291}
+      \strng{editorfullhashraw}{a881fd94608a0170ee25d8d25abe0291}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Encyclopedia of Astronomy and Astrophysics}
+      \field{volumes}{4}
+      \field{year}{2001}
+    \endentry
+    \entry{pic:Io}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=1f99771bc3e23e6097509a331544ab65}{%
+           family={NASA},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{1f99771bc3e23e6097509a331544ab65}
+      \strng{fullhash}{1f99771bc3e23e6097509a331544ab65}
+      \strng{fullhashraw}{1f99771bc3e23e6097509a331544ab65}
+      \strng{bibnamehash}{1f99771bc3e23e6097509a331544ab65}
+      \strng{authorbibnamehash}{1f99771bc3e23e6097509a331544ab65}
+      \strng{authornamehash}{1f99771bc3e23e6097509a331544ab65}
+      \strng{authorfullhash}{1f99771bc3e23e6097509a331544ab65}
+      \strng{authorfullhashraw}{1f99771bc3e23e6097509a331544ab65}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Io Erupts}
+      \field{urlday}{25}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://svs.gsfc.nasa.gov/11455
+      \endverb
+      \verb{url}
+      \verb https://svs.gsfc.nasa.gov/11455
+      \endverb
+    \endentry
+    \entry{Nimmo_1998}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=a2b3ad636c23a0d3d725abb28c810899}{%
+           family={Nimmo},
+           familyi={N\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=fb6f4bccd73f11d98b42d38ec0d9d34a}{%
+           family={McKenzie},
+           familyi={M\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Annual Reviews}%
+      }
+      \strng{namehash}{50b497ea62e981022280836cc7a8728f}
+      \strng{fullhash}{82ef53077030aa475f62cb4efd369faf}
+      \strng{fullhashraw}{82ef53077030aa475f62cb4efd369faf}
+      \strng{bibnamehash}{82ef53077030aa475f62cb4efd369faf}
+      \strng{authorbibnamehash}{82ef53077030aa475f62cb4efd369faf}
+      \strng{authornamehash}{50b497ea62e981022280836cc7a8728f}
+      \strng{authorfullhash}{82ef53077030aa475f62cb4efd369faf}
+      \strng{authorfullhashraw}{82ef53077030aa475f62cb4efd369faf}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1545-4495}
+      \field{journaltitle}{Annual Review of Earth and Planetary Sciences}
+      \field{title}{Volcanism and Tectonics on Venus}
+      \field{type}{Journal Article}
+      \field{volume}{26}
+      \field{year}{1998}
+      \field{pages}{23\bibrangedash 51}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1146/annurev.earth.26.1.23
+      \endverb
+    \endentry
+    \entry{Porco_2005}{article}{}{}
+      \name{author}{35}{}{%
+        {{hash=491afe4551e082292ed7b3a2b2d1b5ff}{%
+           family={Porco},
+           familyi={P\bibinitperiod},
+           given={C.\bibnamedelimi C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=7ce1a58e68a37b8c605f0b59d903ea38}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=38c36633bb51362afd291a0f18cb2d9e}{%
+           family={Barbara},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b300472d98b3ccfba04bbefb8a44b18c}{%
+           family={Beurle},
+           familyi={B\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e84dfc9dc1626c5932768c3410c45a1f}{%
+           family={Brahic},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5154299e338ed6ed7d58324a9bc38e5b}{%
+           family={Burns},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=618adc2cf893a955e71706120cec7e7a}{%
+           family={Charnoz},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e66c42d1c1efe76f14180ff1d995f274}{%
+           family={Cooper},
+           familyi={C\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e1a8a609e447347c84d72f6a725c15e6}{%
+           family={Dawson},
+           familyi={D\bibinitperiod},
+           given={D.\bibnamedelimi D.},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=dbd24478347a9a56252b1cbda47dc910}{%
+           family={Genio},
+           familyi={G\bibinitperiod},
+           given={A.\bibnamedelimi D.\bibnamedelimi Del},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=c3d26a5ad054608a133e30b39e4b6876}{%
+           family={Denk},
+           familyi={D\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c4cf16b32889f102616dab5f7df65885}{%
+           family={Dones},
+           familyi={D\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4068ceddf1018ff29b37d9a9700c139c}{%
+           family={Dyudina},
+           familyi={D\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+        {{hash=3170698fae03aaca3965b0abfe8017b1}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={M.\bibnamedelimi W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=134849bd7fe75c477906368234be7ce0}{%
+           family={Giese},
+           familyi={G\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=88a8ba096d67fa19d708c836a4b749ff}{%
+           family={Grazier},
+           familyi={G\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4e7505a131470a3d5613a42356b6b60e}{%
+           family={Helfenstein},
+           familyi={H\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9bcacdd67044afc228f872b64167aee2}{%
+           family={Ingersoll},
+           familyi={I\bibinitperiod},
+           given={A.\bibnamedelimi P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=53aa369e583165acca3b569420440bad}{%
+           family={Jacobson},
+           familyi={J\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=24a2b48fef5ee0bd7d5945ef3bb42074}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={T.\bibnamedelimi V.},
+           giveni={T\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=a2e1329549405cbc3af04c6add7c5b42}{%
+           family={McEwen},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5089730aa2bef1cf7b0c6f8511611ef3}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={C.\bibnamedelimi D.},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=36a504c9d3242c1b03da2de7296ebde0}{%
+           family={Neukum},
+           familyi={N\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5d8b98d8b984bc7c020d9f8a8eb81cd2}{%
+           family={Owen},
+           familyi={O\bibinitperiod},
+           given={W.\bibnamedelimi M.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=b86883497e13843a031f072eec5ed234}{%
+           family={Perry},
+           familyi={P\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e7a7c0b164476c18e671b57bd0f8c5d4}{%
+           family={Roatsch},
+           familyi={R\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=61d460f8e3ad0f174f059acf9dcc2f38}{%
+           family={Spitale},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=33282f764778963e347cba1ef48fbd32}{%
+           family={Squyres},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8f44f492d17c61c740d04d7b7b454e34}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={P.\bibnamedelimi C.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=565c32d0f60e7d8f9e5f252d044f9b86}{%
+           family={Tiscareno},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cc2ae21fdb893c7439fff350f668f842}{%
+           family={Turtle},
+           familyi={T\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=5803014ae36f3c0affcc95b035d6350b}{%
+           family={Vasavada},
+           familyi={V\bibinitperiod},
+           given={A.\bibnamedelimi R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a2db76c65830980af89d094b9325f9ad}{%
+           family={Veverka},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=aaa4808805cec08569fe64a747e0ad10}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b926ce75ffd248353d9525db53453cbf}{%
+           family={West},
+           familyi={W\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{4eb8543ce9644fda983f6c9c2ea1ff5d}
+      \strng{fullhash}{9258d5ecaeea255bfaf072c0e1b52899}
+      \strng{fullhashraw}{9258d5ecaeea255bfaf072c0e1b52899}
+      \strng{bibnamehash}{41db4bcf6cbb8058922aa0f6011e484c}
+      \strng{authorbibnamehash}{41db4bcf6cbb8058922aa0f6011e484c}
+      \strng{authornamehash}{4eb8543ce9644fda983f6c9c2ea1ff5d}
+      \strng{authorfullhash}{9258d5ecaeea255bfaf072c0e1b52899}
+      \strng{authorfullhashraw}{9258d5ecaeea255bfaf072c0e1b52899}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{5713}
+      \field{title}{Cassini Imaging Science: Initial Results on Phoebe and Iapetus}
+      \field{volume}{307}
+      \field{year}{2005}
+      \field{pages}{1237\bibrangedash 1242}
+      \range{pages}{6}
+    \endentry
+    \entry{Prajan_2025}{articel}{}{}
+      \name{author}{1}{}{%
+        {{hash=a121532a7c7630452022e5d65d261b27}{%
+           family={Prajan},
+           familyi={P\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a121532a7c7630452022e5d65d261b27}
+      \strng{fullhash}{a121532a7c7630452022e5d65d261b27}
+      \strng{fullhashraw}{a121532a7c7630452022e5d65d261b27}
+      \strng{bibnamehash}{a121532a7c7630452022e5d65d261b27}
+      \strng{authorbibnamehash}{a121532a7c7630452022e5d65d261b27}
+      \strng{authornamehash}{a121532a7c7630452022e5d65d261b27}
+      \strng{authorfullhash}{a121532a7c7630452022e5d65d261b27}
+      \strng{authorfullhashraw}{a121532a7c7630452022e5d65d261b27}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Fiery Moon: Understanding Io’s Volcanism Through Tidal Heating}
+      \field{year}{2025}
+    \endentry
+    \entry{Rae_2018}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=f4b64bf36b643733683be29882c3bbb3}{%
+           family={Rae},
+           familyi={R\bibinitperiod},
+           given={Auriol\bibnamedelimb Stephen\bibnamedelima Prenter},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Imperial College London}%
+      }
+      \strng{namehash}{f4b64bf36b643733683be29882c3bbb3}
+      \strng{fullhash}{f4b64bf36b643733683be29882c3bbb3}
+      \strng{fullhashraw}{f4b64bf36b643733683be29882c3bbb3}
+      \strng{bibnamehash}{f4b64bf36b643733683be29882c3bbb3}
+      \strng{authorbibnamehash}{f4b64bf36b643733683be29882c3bbb3}
+      \strng{authornamehash}{f4b64bf36b643733683be29882c3bbb3}
+      \strng{authorfullhash}{f4b64bf36b643733683be29882c3bbb3}
+      \strng{authorfullhashraw}{f4b64bf36b643733683be29882c3bbb3}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The kinematics and dynamics of complex crater collapse}
+      \field{type}{phdthesis}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.25560/83669
+      \endverb
+    \endentry
+    \entry{Robbins_2011}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=3ed43cabd907c14e2a714bfc956eba9b}{%
+           family={Robbins},
+           familyi={R\bibinitperiod},
+           given={Stuart\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=63f218655b50a5aac4acd0d606b89fb5}{%
+           family={Achille},
+           familyi={A\bibinitperiod},
+           given={Gaetano\bibnamedelima Di},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=d671154cfd9f0345a881c86a6c1169f2}{%
+           family={Hynek},
+           familyi={H\bibinitperiod},
+           given={Brian\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{9e986dacf6d5de2a73ee57d077b39682}
+      \strng{fullhash}{799bc88809dafec51dec786543676f1d}
+      \strng{fullhashraw}{799bc88809dafec51dec786543676f1d}
+      \strng{bibnamehash}{799bc88809dafec51dec786543676f1d}
+      \strng{authorbibnamehash}{799bc88809dafec51dec786543676f1d}
+      \strng{authornamehash}{9e986dacf6d5de2a73ee57d077b39682}
+      \strng{authorfullhash}{799bc88809dafec51dec786543676f1d}
+      \strng{authorfullhashraw}{799bc88809dafec51dec786543676f1d}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Icarus}
+      \field{number}{2}
+      \field{title}{The volcanic history of Mars: High-resolution crater-based studies of the calderas of 20 volcanoes}
+      \field{volume}{211}
+      \field{year}{2011}
+      \field{pages}{1179\bibrangedash 1203}
+      \range{pages}{25}
+    \endentry
+    \entry{Schulte_2010}{article}{}{}
+      \name{author}{41}{}{%
+        {{hash=3f20b4c21aac1f6ec13c6e72361f574e}{%
+           family={Schulte},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7874e696c7d04979ed57036b4cabafaf}{%
+           family={Alegret},
+           familyi={A\bibinitperiod},
+           given={Laia},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1ee9d2cf6ba483ad025d803a41966129}{%
+           family={Arenillas},
+           familyi={A\bibinitperiod},
+           given={Ignacio},
+           giveni={I\bibinitperiod}}}%
+        {{hash=e26a5e83852f09ecf04afa0b0a1c20c1}{%
+           family={Arz},
+           familyi={A\bibinitperiod},
+           given={José\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=05308a3a1ec479b244af80dfdc190055}{%
+           family={Barton},
+           familyi={B\bibinitperiod},
+           given={Penny\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=0ee1a00b41011969a8ba90f81071cb90}{%
+           family={Bown},
+           familyi={B\bibinitperiod},
+           given={Paul\bibnamedelima R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=b1b2d7ffed4d0bae0dc99d88f30c86a7}{%
+           family={Bralower},
+           familyi={B\bibinitperiod},
+           given={Timothy\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a844cbc7279559531483b569b153ad27}{%
+           family={Christeson},
+           familyi={C\bibinitperiod},
+           given={Gail\bibnamedelima L.},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=cd033214dff366fe5016183e09a34020}{%
+           family={Claeys},
+           familyi={C\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+        {{hash=1841018cfe2376fa7a44be6bfce76265}{%
+           family={Cockell},
+           familyi={C\bibinitperiod},
+           given={Charles\bibnamedelima S.},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=2eb2ffb9464f660401d7ef603ba5b70d}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={Gareth\bibnamedelima S.},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=982922f78d2944bcbed6a2ffa91e290e}{%
+           family={Deutsch},
+           familyi={D\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=431c66d18f143641acce580fcf5c6554}{%
+           family={Goldin},
+           familyi={G\bibinitperiod},
+           given={Tamara\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=ff4676d7386f30007ad9127825dab1d5}{%
+           family={Goto},
+           familyi={G\bibinitperiod},
+           given={Kazuhisa},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8f5ac064f6988447dc6ba7ef994daa62}{%
+           family={Grajales-Nishimura},
+           familyi={G\bibinithyphendelim N\bibinitperiod},
+           given={José\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=17da981f61ced1250ef614c391a13edc}{%
+           family={Grieve},
+           familyi={G\bibinitperiod},
+           given={Richard\bibnamedelimb A.\bibnamedelimi F.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=425a5a23c13fa4492a9131ee425ea0a6}{%
+           family={Gulick},
+           familyi={G\bibinitperiod},
+           given={Sean\bibnamedelimb P.\bibnamedelimi S.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=bb49ced1bd14f03929089cf83f892071}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Kirk\bibnamedelima R.},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=8d64c069ee1e4098c8ae987371387165}{%
+           family={Kiessling},
+           familyi={K\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=bc8b710fc7190d8f5a7f25b19da3bfec}{%
+           family={Koeberl},
+           familyi={K\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ca22b5a11cec8e224c1743526e3f7ac7}{%
+           family={Kring},
+           familyi={K\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=168cb9e7915fcbc3311a36ec7fb2cf36}{%
+           family={MacLeod},
+           familyi={M\bibinitperiod},
+           given={Kenneth\bibnamedelima G.},
+           giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=2891ae6df9c348af7cf46ecdb6ed1c7f}{%
+           family={Matsui},
+           familyi={M\bibinitperiod},
+           given={Takafumi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a9f6487332fa942f9c788b88685619c5}{%
+           family={Melosh},
+           familyi={M\bibinitperiod},
+           given={Jay},
+           giveni={J\bibinitperiod}}}%
+        {{hash=230edf96cbfbe931fe1d8166fb229cf6}{%
+           family={Montanari},
+           familyi={M\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4f01b68ec8b69ed5a80027136aaff530}{%
+           family={Morgan},
+           familyi={M\bibinitperiod},
+           given={Joanna\bibnamedelima V.},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=24578177874aa7833bd2635c54819377}{%
+           family={Neal},
+           familyi={N\bibinitperiod},
+           given={Clive\bibnamedelima R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=c8c0c9ff55980ae6c3c0e5b4dd6239a0}{%
+           family={Nichols},
+           familyi={N\bibinitperiod},
+           given={Douglas\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9fd1ac4055c5ebb7d431a48befd94093}{%
+           family={Norris},
+           familyi={N\bibinitperiod},
+           given={Richard\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=aff6351ce7cfa73f57a4b9c8521b9b1c}{%
+           family={Pierazzo},
+           familyi={P\bibinitperiod},
+           given={Elisabetta},
+           giveni={E\bibinitperiod}}}%
+        {{hash=cb00cd62201fad4859cc7a1b2d917b17}{%
+           family={Ravizza},
+           familyi={R\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b950832df1607b7c631a2b59992a4e71}{%
+           family={Rebolledo-Vieyra},
+           familyi={R\bibinithyphendelim V\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4b4ea47d2c1314545c036255aac257b6}{%
+           family={Reimold},
+           familyi={R\bibinitperiod},
+           given={Wolf\bibnamedelima Uwe},
+           giveni={W\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+        {{hash=f7b291b55c6f793cdd14a9c6715c0950}{%
+           family={Robin},
+           familyi={R\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=b7884bebcb6c0ceca451edd15c95f5ea}{%
+           family={Salge},
+           familyi={S\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=afdf4605999cc9d34df1be905a13f9d4}{%
+           family={Speijer},
+           familyi={S\bibinitperiod},
+           given={Robert\bibnamedelima P.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=23e18184afba698517f764d691095522}{%
+           family={Sweet},
+           familyi={S\bibinitperiod},
+           given={Arthur\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=1aa41ef5e3a1685bbf3601fa8e20d726}{%
+           family={Urrutia-Fucugauchi},
+           familyi={U\bibinithyphendelim F\bibinitperiod},
+           given={Jaime},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7aade262419f5fafc07ccbb69b471b4e}{%
+           family={Vajda},
+           familyi={V\bibinitperiod},
+           given={Vivi},
+           giveni={V\bibinitperiod}}}%
+        {{hash=c081a23e9bf3541d25d95f1c3f46e426}{%
+           family={Whalen},
+           familyi={W\bibinitperiod},
+           given={Michael\bibnamedelima T.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=ebcfa5056fe007c64aed2241e5d3e1f5}{%
+           family={Willumsen},
+           familyi={W\bibinitperiod},
+           given={Pi\bibnamedelima S.},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{57bc31da6c538b846311f4e2d8a38cc7}
+      \strng{fullhash}{29dd27d2ca368f9a6c0920271dda1bd3}
+      \strng{fullhashraw}{29dd27d2ca368f9a6c0920271dda1bd3}
+      \strng{bibnamehash}{249c95d3568c4d500c8f7ecea74bcaae}
+      \strng{authorbibnamehash}{249c95d3568c4d500c8f7ecea74bcaae}
+      \strng{authornamehash}{57bc31da6c538b846311f4e2d8a38cc7}
+      \strng{authorfullhash}{29dd27d2ca368f9a6c0920271dda1bd3}
+      \strng{authorfullhashraw}{29dd27d2ca368f9a6c0920271dda1bd3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{5970}
+      \field{title}{The Chicxulub Asteroid Impact and Mass Extinction at the Cretaceous-Paleogene Boundary}
+      \field{volume}{327}
+      \field{year}{2010}
+      \field{pages}{1214\bibrangedash 1218}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1126/science.1177265
+      \endverb
+    \endentry
+    \entry{Schumacher_2007}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=bc3f174bbd8cdede3c9e72566d8000bf}{%
+           family={Schumacher},
+           familyi={S\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+        {{hash=acd576550c6154500c13afdf0c2393c7}{%
+           family={Breuer},
+           familyi={B\bibinitperiod},
+           given={Doris},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{10b23cf547068442d317e11a80294be3}
+      \strng{fullhash}{1dbcb369551c845fa80f40e6dfe8db0b}
+      \strng{fullhashraw}{1dbcb369551c845fa80f40e6dfe8db0b}
+      \strng{bibnamehash}{1dbcb369551c845fa80f40e6dfe8db0b}
+      \strng{authorbibnamehash}{1dbcb369551c845fa80f40e6dfe8db0b}
+      \strng{authornamehash}{10b23cf547068442d317e11a80294be3}
+      \strng{authorfullhash}{1dbcb369551c845fa80f40e6dfe8db0b}
+      \strng{authorfullhashraw}{1dbcb369551c845fa80f40e6dfe8db0b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{number}{14}
+      \field{title}{An alternative mechanism for recent volcanism on Mars}
+      \field{volume}{34}
+      \field{year}{2007}
+    \endentry
+    \entry{Sigurdsson_2015}{book}{}{}
+      \name{editor}{5}{}{%
+        {{hash=19c193db2952de12daf8fdd8305c75af}{%
+           family={Sigurdsson},
+           familyi={S\bibinitperiod},
+           given={Haraldur},
+           giveni={H\bibinitperiod}}}%
+        {{hash=7ebf3ed917dcfa6a3e4f01eb9b33a439}{%
+           family={Houghton},
+           familyi={H\bibinitperiod},
+           given={Bruce},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3ad4be3934da54238aed965ba297aa4e}{%
+           family={McNutt},
+           familyi={M\bibinitperiod},
+           given={Hazel},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ee62f972b869725da981d69b838ebb60}{%
+           family={Rymer},
+           familyi={R\bibinitperiod},
+           given={Hazel},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4991427af14c575bea6497a07814a10a}{%
+           family={Stix},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam, Netherlands}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{b599492f774f363df6182f19abe135e5}
+      \strng{fullhash}{5c10e30ceae1ea34b3c23d9f6ff3374b}
+      \strng{fullhashraw}{5c10e30ceae1ea34b3c23d9f6ff3374b}
+      \strng{bibnamehash}{0cf4684c8f89a3cc4cace5a049f66bfa}
+      \strng{editorbibnamehash}{0cf4684c8f89a3cc4cace5a049f66bfa}
+      \strng{editornamehash}{b599492f774f363df6182f19abe135e5}
+      \strng{editorfullhash}{5c10e30ceae1ea34b3c23d9f6ff3374b}
+      \strng{editorfullhashraw}{5c10e30ceae1ea34b3c23d9f6ff3374b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{title}{The Encyclopedia of Volcanoes}
+      \field{year}{2015}
+    \endentry
+    \entry{Smrekar_2010}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=d388ecdd30694ea7d93ce93f039f9c27}{%
+           family={Smrekar},
+           familyi={S\bibinitperiod},
+           given={Suzanne\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=b30b0e736f8cb1800e904046997dd867}{%
+           family={Stofan},
+           familyi={S\bibinitperiod},
+           given={Ellen\bibnamedelima R.},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=d233c20d100857116417f7128928ec11}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={Nils},
+           giveni={N\bibinitperiod}}}%
+        {{hash=087e3f92f659769209ea22a3f8e215fd}{%
+           family={Treiman},
+           familyi={T\bibinitperiod},
+           given={Allan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f5368e0adc20e79e7129291ea72cde3e}{%
+           family={Elkins-Tanton},
+           familyi={E\bibinithyphendelim T\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod}}}%
+        {{hash=560c6a971808f87388d12c7b9898a69b}{%
+           family={Helbert},
+           familyi={H\bibinitperiod},
+           given={Joern},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c7fb31b6bf95914f4ee7957700f7daa3}{%
+           family={Piccioni},
+           familyi={P\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+        {{hash=810c9eef715d75ac7e98113c01397d7b}{%
+           family={Drossart},
+           familyi={D\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a5e8241a1be49d9b18f166bd55f42dd9}
+      \strng{fullhash}{3864d8815f67c6685a4df2a661230a51}
+      \strng{fullhashraw}{3864d8815f67c6685a4df2a661230a51}
+      \strng{bibnamehash}{40323646efcf789d85e36cf6d38f4e72}
+      \strng{authorbibnamehash}{40323646efcf789d85e36cf6d38f4e72}
+      \strng{authornamehash}{a5e8241a1be49d9b18f166bd55f42dd9}
+      \strng{authorfullhash}{3864d8815f67c6685a4df2a661230a51}
+      \strng{authorfullhashraw}{3864d8815f67c6685a4df2a661230a51}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{5978}
+      \field{title}{Recent Hotspot Volcanism on Venus from VIRTIS Emissivity Data}
+      \field{volume}{328}
+      \field{year}{2010}
+      \field{pages}{605\bibrangedash 608}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.1186785
+      \endverb
+    \endentry
+    \entry{Spencer_2007}{article}{}{}
+      \name{author}{17}{}{%
+        {{hash=c25e044778c7d4b37b5d2825fd74370c}{%
+           family={Spencer},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=3e0500fdb569cddab68e6ce4bc3aa27a}{%
+           family={Stern},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8128878c843ff0258ce309d29c0e4fde}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=14406f337ba0a91888eb90013cc0dc7b}{%
+           family={Weaver},
+           familyi={W\bibinitperiod},
+           given={H.\bibnamedelimi A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=f342e5335b5c5d208bc47a2b84cbc191}{%
+           family={Reuter},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=c7d0f169deff404d760d2d29546636e2}{%
+           family={Retherford},
+           familyi={R\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=1f511dae78c0975aff182aff1e7f630f}{%
+           family={Lunsford},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=761bc3457cc3d43e48ff92cc03ae5421}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=50fb904ee3afabc2cfac3dffc3da310a}{%
+           family={Abramov},
+           familyi={A\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=952b86a6a6c6ed317e249f7f5e83681b}{%
+           family={Lopes},
+           familyi={L\bibinitperiod},
+           given={R.\bibnamedelimi M.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=17f66220223a61e9b13c78d234224e79}{%
+           family={Perry},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=265b03a221efc6d7a1fa1a342d35a0fa}{%
+           family={Kamp},
+           familyi={K\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=897ef57f9a5e8c7ad04cc193bc426a36}{%
+           family={Showalter},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c9f7cd96c5b2056eb532b504735f65f8}{%
+           family={Jessup},
+           familyi={J\bibinitperiod},
+           given={K.\bibnamedelimi L.},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=ab5a5f9c8a3aec68c0ba7e07e06134bc}{%
+           family={Marchis},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=708953b3979440218f8b24b69428f5f2}{%
+           family={Schenk},
+           familyi={S\bibinitperiod},
+           given={P.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=1f206bd36508063641e4edf42141a857}{%
+           family={Dumas},
+           familyi={D\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{8a67a0c6293d4b5b6e7bb21d751901f8}
+      \strng{fullhash}{801407353103d4d47c7ed78db4c0575b}
+      \strng{fullhashraw}{801407353103d4d47c7ed78db4c0575b}
+      \strng{bibnamehash}{b110050de963f3682c1a29088276fc21}
+      \strng{authorbibnamehash}{b110050de963f3682c1a29088276fc21}
+      \strng{authornamehash}{8a67a0c6293d4b5b6e7bb21d751901f8}
+      \strng{authorfullhash}{801407353103d4d47c7ed78db4c0575b}
+      \strng{authorfullhashraw}{801407353103d4d47c7ed78db4c0575b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{5848}
+      \field{title}{Io Volcanism Seen by New Horizons: A Major Eruption of the Tvashtar Volcano}
+      \field{volume}{318}
+      \field{year}{2007}
+      \field{pages}{240\bibrangedash 243}
+      \range{pages}{4}
+    \endentry
+    \entry{Thomas_2007}{article}{}{}
+      \name{author}{13}{}{%
+        {{hash=8f44f492d17c61c740d04d7b7b454e34}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={P.C.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=5154299e338ed6ed7d58324a9bc38e5b}{%
+           family={Burns},
+           familyi={B\bibinitperiod},
+           given={J.A.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4e7505a131470a3d5613a42356b6b60e}{%
+           family={Helfenstein},
+           familyi={H\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=33282f764778963e347cba1ef48fbd32}{%
+           family={Squyres},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a2db76c65830980af89d094b9325f9ad}{%
+           family={Veverka},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4eee5ff56005ad2c664bb78a2c94541b}{%
+           family={Porco},
+           familyi={P\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b581de7da2b087d57be21ab80fbd906e}{%
+           family={Turtle},
+           familyi={T\bibinitperiod},
+           given={E.P.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=a2e1329549405cbc3af04c6add7c5b42}{%
+           family={McEwen},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c3d26a5ad054608a133e30b39e4b6876}{%
+           family={Denk},
+           familyi={D\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=134849bd7fe75c477906368234be7ce0}{%
+           family={Giese},
+           familyi={G\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e7a7c0b164476c18e671b57bd0f8c5d4}{%
+           family={Roatsch},
+           familyi={R\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=24a2b48fef5ee0bd7d5945ef3bb42074}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={T.V.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=53aa369e583165acca3b569420440bad}{%
+           family={Jacobson},
+           familyi={J\bibinitperiod},
+           given={R.A.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a004e90d24f2daae98441a50cf986f1a}
+      \strng{fullhash}{95785c318b860535bfabe16f6ff710d9}
+      \strng{fullhashraw}{95785c318b860535bfabe16f6ff710d9}
+      \strng{bibnamehash}{3d04c6769ebf95b710be8f671a839cd2}
+      \strng{authorbibnamehash}{3d04c6769ebf95b710be8f671a839cd2}
+      \strng{authornamehash}{a004e90d24f2daae98441a50cf986f1a}
+      \strng{authorfullhash}{95785c318b860535bfabe16f6ff710d9}
+      \strng{authorfullhashraw}{95785c318b860535bfabe16f6ff710d9}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Icarus}
+      \field{note}{Deep Impact Mission to Comet 9P/Tempel 1, Part 2}
+      \field{number}{2}
+      \field{title}{Shapes of the saturnian icy satellites and their significance}
+      \field{volume}{190}
+      \field{year}{2007}
+      \field{pages}{573\bibrangedash 584}
+      \range{pages}{12}
+    \endentry
+    \entry{USGS_Volcanism}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=443478d363b15c65a1ee517d1122e79b}{%
+           family={{U.S. Geological Survey}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{443478d363b15c65a1ee517d1122e79b}
+      \strng{fullhash}{443478d363b15c65a1ee517d1122e79b}
+      \strng{fullhashraw}{443478d363b15c65a1ee517d1122e79b}
+      \strng{bibnamehash}{443478d363b15c65a1ee517d1122e79b}
+      \strng{authorbibnamehash}{443478d363b15c65a1ee517d1122e79b}
+      \strng{authornamehash}{443478d363b15c65a1ee517d1122e79b}
+      \strng{authorfullhash}{443478d363b15c65a1ee517d1122e79b}
+      \strng{authorfullhashraw}{443478d363b15c65a1ee517d1122e79b}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Nature of Volcanoes}
+      \field{urlday}{18}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{1999}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://pubs.usgs.gov/gip/volc/nature.html
+      \endverb
+      \verb{url}
+      \verb https://pubs.usgs.gov/gip/volc/nature.html
+      \endverb
+    \endentry
+    \entry{Veenstra_2026}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=5f1f846d61a027e152cabaf9e77e192b}{%
+           family={Veenstra},
+           familyi={V\bibinitperiod},
+           given={Allard},
+           giveni={A\bibinitperiod}}}%
+        {{hash=25fdbee9cf956c51347a0a23b470fed1}{%
+           family={Woerkom},
+           familyi={W\bibinitperiod},
+           given={Quirijn},
+           giveni={Q\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=40d73e39775568debdc63c45a76c6111}{%
+           family={Marzolini},
+           familyi={M\bibinitperiod},
+           given={Alessandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b27ade990b230d0e02fe773ebf2bbd1a}{%
+           family={Fayolle},
+           familyi={F\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod}}}%
+        {{hash=36ed4ce76eedebce11395f2b0b04be02}{%
+           family={Filice},
+           familyi={F\bibinitperiod},
+           given={Valerio},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{85fe093cad362f4e1af6977bd3226180}
+      \strng{fullhash}{1301a56df129f3647c9cfd5d74959018}
+      \strng{fullhashraw}{1301a56df129f3647c9cfd5d74959018}
+      \strng{bibnamehash}{eb46deed7d9d49471edaa0e25cb4cfda}
+      \strng{authorbibnamehash}{eb46deed7d9d49471edaa0e25cb4cfda}
+      \strng{authornamehash}{85fe093cad362f4e1af6977bd3226180}
+      \strng{authorfullhash}{1301a56df129f3647c9cfd5d74959018}
+      \strng{authorfullhashraw}{1301a56df129f3647c9cfd5d74959018}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Communications}
+      \field{number}{4186}
+      \field{title}{Good vibrations: Exploring how orbital resonance shapes the Galilean moons}
+      \field{volume}{17}
+      \field{year}{2026}
+    \endentry
+    \entry{Werner_2009}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=f813b4af24d311b69ae1dbcc38f413e5}{%
+           family={Werner},
+           familyi={W\bibinitperiod},
+           given={Stephanie\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{f813b4af24d311b69ae1dbcc38f413e5}
+      \strng{fullhash}{f813b4af24d311b69ae1dbcc38f413e5}
+      \strng{fullhashraw}{f813b4af24d311b69ae1dbcc38f413e5}
+      \strng{bibnamehash}{f813b4af24d311b69ae1dbcc38f413e5}
+      \strng{authorbibnamehash}{f813b4af24d311b69ae1dbcc38f413e5}
+      \strng{authornamehash}{f813b4af24d311b69ae1dbcc38f413e5}
+      \strng{authorfullhash}{f813b4af24d311b69ae1dbcc38f413e5}
+      \strng{authorfullhashraw}{f813b4af24d311b69ae1dbcc38f413e5}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Icarus}
+      \field{number}{1}
+      \field{title}{The global martian volcanic evolutionary history}
+      \field{volume}{201}
+      \field{year}{2009}
+      \field{pages}{44\bibrangedash 68}
+      \range{pages}{25}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

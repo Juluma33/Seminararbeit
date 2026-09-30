@@ -22,6 +22,8 @@
 
 \usepackage[margin=10pt, font=small, labelfont=bf, format=plain, indention=.75cm, justification=justified]{caption}
 
+\usepackage{placeins}
+
 \usepackage{parskip}         % für eindeutige Absätze
 \usepackage[all]{nowidow}    % gegen verwaiste Zeilen
 
@@ -145,7 +147,7 @@ and test {\ifmorenames}}{\ifnumgreater{\value{liststop}}{1}{\finalnamedelim}{}\u
                                  >{\raggedright\arraybackslash}X}
         \textbf{Thema:}&Entstehungsmechanismen und strukturelle Merkmale von Zentralbergen in Impaktkratern, Vulkanen und Äquatorialkämmen im Sonnensystem\\
         \textbf{Verfasser:}& Julian Luke Mawill Baden \\
-        \textbf{Fachlehrkraft und Kursbezeichnung:}& Herr Ropeter , 13sf2\\
+        \textbf{Fachlehrkraft und Kursbezeichnung:}& Herr Ropeter , 13SF2\\
         \end{tabularx}
 \end{table}
 
@@ -164,7 +166,7 @@ Schuljahr:  2026/27\\
                                  >{\raggedright\arraybackslash}X}
         Verfasser:& Julian Luke Mawill Baden \\
         Thema:&Entstehungsmechanismen und strukturelle Merkmale von Zentralbergen in Impaktkratern, Vulkanen und Äquatorialkämmen im Sonnensystem\\
-        Fachlehrkraft und Kursbezeichnung:& Herr Ropeter , 13sf2\\
+        Fachlehrkraft und Kursbezeichnung:& Herr Ropeter , 13SF2\\
         \end{tabularx}
 \end{table}
 
@@ -260,25 +262,33 @@ Das vergleichsweise junge Alter und das umliegene Terrain,
 ermöglichen exakte Tiefenmessungen \parencite[1616]{Mouginis-Mark_2012}.
 So liegt der Kraterboden in der südlichen Kraterhälfte $~\sim$1275~m unterhalb des umliegenden Terrains, während
 der nördliche Kraterboden $\sim$1080~m tiefer als das umliegende Terrain liegt
-(siehe Abb.\ref{pic:tooting})\parencite[1]{Mouginis-Mark_2015}.
+(siehe Abb.\ref{pic:tooting_querschnitt})\parencite[1]{Mouginis-Mark_2015}.
 
 Der Zentralberg des Tooting-Kraters liegt 119~m unterhalb der Kraterumgebung und
 768~m unterhalb des durschnittlichen Randkamms des Kraters \parencite[1]{Mouginis-Mark_2015}.
 Der Tooting-Krater zeichnet sich zudem durch mehrere sekundäre Bergspitzen aus.
 Die zentrale Spitze erreicht eine Höhe von 1110~m über dem Kraterboden \parencite[1]{Mouginis-Mark_2015},
-während die sekundären Spitzen 149 und 147~m niedriger als die Zentrale liegen \parencite[1619]{Mouginis-Mark_2012}.
+während die sekundären Spitzen 149 und 147~m niedriger als die zentrale Erhebung liegen \parencite[1619]{Mouginis-Mark_2012}.
+
 
 
 
 \begin{center}
-    \begin{figure}
-        \includegraphics[width=0.55\textwidth]{../Quellen/Bilder/Tooting_querschnitt.png}
-        \includegraphics[width=0.45\textwidth]{../Quellen/Bilder/Tooting.png}
-        \caption{\textbf{Links:} Topografisches Profil des Tooting-Krater, das durch den höchsten Punkt des
-                Zentralbergs verläuft. \citep[1619]{Mouginis-Mark_2012}.\\[0.2cm]
-                \textbf{Rechts:} Foto des Tooting-Kraters. Ausschnitt von der Aufnahme der THEMIS-Mission der NASA. \citep{pic:Tooting}.}
+    \begin{minipage}{0.56\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../Quellen/Bilder/Tooting_querschnitt.png}
+        \captionof{figure}{Topografisches Profil des Tooting-Kraters,
+                        das durch den höchsten Punkt des Zentralbergs verläuft. \citereset\parencite[1619]{Mouginis-Mark_2012}.}
+        \label{pic:tooting_querschnitt}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.43\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../Quellen/Bilder/Tooting.png}
+        \captionof{figure}{Foto des Tooting-Kraters.
+                        Ausschnitt von der Aufnahme der THEMIS-Mission der NASA. \citereset\citep{pic:Tooting}.}
         \label{pic:tooting}
-    \end{figure}
+    \end{minipage}
 \end{center}
 
 
@@ -298,7 +308,7 @@ Bei größeren Kratern kommt es hingegen durch die Aufwärtsbewegung von Materia
 zur Bildung einer zentralen Erhebung \parencite[10]{Rae_2018}.
 Solche Krater werden als komplexe Krater bezeichnet.
 
-Der Kraterradius, ab dem die Bildung eies Zentralberges beobachtbar ist,
+Der Kraterradius, ab dem die Bildung eines Zentralberges beobachtbar ist,
 wird maßgeblich von der Größe des Himmelskörpers bestimmt.
 Auf dem Mond beträgt der minimale Kraterradius für das Auftreten eines Zentralberges
 $\sim$15~km, während er auf dem Mars und Merkur bei $\sim$7~km liegt. Auf der Erde
@@ -312,12 +322,12 @@ liegt der Wert bei $\sim$2-4~km und ist dabei von den jeweiligen Gesteinsarten a
 
 Bei besonders großen Kratern kann der Zentralberg eine Höhe erreichen, bei der er instabil wird und
 zu einem Zentralring kollabiert \parencite[115]{Rae_2018}.
-Diese ringförmige Reliefstrukturen kommen sowohl auf anderen Himmelskörpern, aus auch auf der Erde vor.
+Diese ringförmige Reliefstrukturen kommen sowohl auf anderen Himmelskörpern, als auch auf der Erde vor.
 Ein Beispiel hierfür ist der Chicxulub-Krater auf der Yucatán-Halbinsel in Mexico.
 Er besitzt einen Durchmesser von etwa 180~km und einen $\sim$400~m hohen Zentralring \parencite[100]{Rae_2018}.
 Der $\sim$65,5 Millionen Jahre alte Krater entstand durch
 den Einschlag des Asteroiden, der das Massenaussterben am Ende der Kreidezeit verursachte und
-unter Anderem zum Aussterben der Dinosaurier führte \parencite[1214]{Schulte_2010}.
+unter anderem zum Aussterben der Dinosaurier führte \parencite[1214]{Schulte_2010}.
 
 Nach Berechnungen hat der instabile Zentralberg nach $\sim$200~s seine maximale Höhe erreicht und
 kollabierte anschließend zu dem heutigen Zentralring mit einem Durchmesser von 80-90~km \parencite[100, 113]{Rae_2018}.
@@ -339,7 +349,7 @@ Gesteins um mehr als 2~km während der Modifikationsphase hin \parencite[102 f.]
 Eine weitere markante Ringstruktur im Sonnensystem stellt der Äquatorialkamm des Saturnmondes Iapetus
 dar (siehe Abb.\ref{pic:iapetus}).
 Auf Aufnahmen der Raumsonde Cassini, die 2004 am Iapetus vorbeigeflogen ist, ist eine
-ausgeprägte Gebirgsstruktur am Äquator des Mondes zu erkennbar \parencite[1237]{Porco_2005}.
+ausgeprägte Gebirgsstruktur am Äquator des Mondes erkennbar \parencite[1237]{Porco_2005}.
 Der Äquatorialkamm erreicht eine Höhe von 20~km und erstreckt sich über
 mindestens 75\% des Umfangs von Iapetus \parencites[2262]{Dombard_2008}[1241]{Porco_2005}.
 
@@ -351,13 +361,14 @@ wurden verschiedene Hypothesen zu seiner Entstehung vorgeschlagen.
 
 
 
-\begin{center}
-    \begin{figure}
-        \includegraphics[width=\textwidth]{../Quellen/Bilder/Iapetus.png}
-        \caption{Aufnahmen der Saturnmondes Iapetus. Der Bergkamm ist deutlich am Äquator erkennbar. \citep[1240]{Porco_2005}.}
-        \label{pic:iapetus}
-    \end{figure}
-\end{center}
+
+\begin{figure}[tbp]
+    \centering
+    \includegraphics[width=\textwidth]{../Quellen/Bilder/Iapetus.png}
+    \caption{Aufnahmen der Saturnmondes Iapetus. Der Bergkamm ist deutlich am Äquator erkennbar. \citereset\citep[1240]{Porco_2005}.}
+    \label{pic:iapetus}
+\end{figure}
+
 
 
 
@@ -373,9 +384,9 @@ Dazu gehören ein Verlangsamen der Rotationsgeschwindigkeit
 (siehe Kapitel \ref{subsubsec:Verlangsamen der Rotationsgeschwindigkeit des Iapetus})
 und ein Aufwölben der Lithosphäre (siehe Kapitel \ref{subsubsec:Aufwölben der Lithosphäre}).
 
-als extrinsisch werden hingegen Mechanismen bezeichnet, deren Ursache außerhalb des Iapetus liegt.
+Als extrinsisch werden hingegen Mechanismen bezeichnet, deren Ursache außerhalb des Iapetus liegt.
 Dazu gehört die Existenz eines uralten Ringsystems (siehe Kapitel \ref{subsubsec:Ein uraltes Ringsystem})
-und die Entstehung infolge einen Einschlag eines anderen Körpers auf dem Iapetus
+und die Entstehung infolge eines Einschlags eines anderen Körpers auf dem Iapetus
 (siehe Kapitel \ref{subsubsec:Impaktbedingte Entstehung des Äquatorialkamms}).
 
 
@@ -389,22 +400,22 @@ dass der Äquatorialkamm durch ein Verlangsamen der Rotationsgeschwindigkeit
 des Mondes entstanden sein könnte \parencite[1242]{Porco_2005}.
 Als Hinweis darauf wurde insbesondere die Lage des Kamms entlang des Äquators angeführt \parencite[1242]{Porco_2005}.
 
-Bei genauerer Betrachtung weißt der Iapetus zudem eine Äquatoriale Ausbeulung vor \parencite[182]{Castillo-Rogez_2007}.
+Bei genauerer Betrachtung weißt der Iapetus zudem eine äquatoriale Ausbeulung vor \parencite[182]{Castillo-Rogez_2007}.
 Der Durchmesser zwischen den Polen ist somit geringer als der Durchmesser entlang der Äquatorebene.
 Aufgrund der heutigen Dichte und Rotationsgeschwindigkeit des Mondes wäre zwischen diesen beiden Durchmessern
-lediglich eine Differenz von durchschnittlich $\sim$10~m zu erwarten\parencite[580]{Thomas_2007}.
-Die tatsächlich gemessene Differenz von 35~km lässt sich hingegen durch die Zentrifugalkraft zu erklären,
+lediglich eine Differenz von durchschnittlich $\sim$10~m zu erwarten \parencite[580]{Thomas_2007}.
+Die tatsächlich gemessene Differenz von 35~km lässt sich hingegen durch die Zentrifugalkraft erklären,
 die bei einer Rotationsperiode von $\sim$16~h gewirkt hätten \parencite[580]{Thomas_2007}.
 Iapetus besitzt heute eine Rotationsperiode von 79,33 Tagen \parencite[180]{Castillo-Rogez_2007}.
 
 Nach dieser Theorie entstand sowohl die heutige Form des Mondes und sein Äquatorialkamm infolge
 einer ursprünglich höheren Rotationsgeschwindigkeit des Iapetus \parencite[182]{Castillo-Rogez_2007}.
-Die dadurch hervorgerufene Zentrifugalkraft führte zu einer Äquatorialen Ausbeulung \parencite[580]{Thomas_2007}.
+Die dadurch hervorgerufene Zentrifugalkraft führte zu einer äquatorialen Ausbeulung \parencite[580]{Thomas_2007}.
 Damit diese durch die beim Verlangsamen abnehmende Zentrifugalkraft nicht zu Instabilität führt,
 musste sich die ursprünglich dünne Lithosphäre ausreichend verdicken und
 dadurch eine ausreichende strukturelle Stabilität entwickeln \parencite[198]{Castillo-Rogez_2007}.
 
-Somit folgt auf die initiale Verforme des Iapetus aufgrund seiner ehemalig hohen Rotationsgeschwindigkeit und
+Somit folgt auf die initiale Verformung des Iapetus aufgrund seiner ehemalig hohen Rotationsgeschwindigkeit und
 der damaligen dünnen Lithosphäre eine Phase der Abbremsung der Rotationsgeschwindigkeit
 bei gleichzeitiger Verdickung der Lithosphäre.
 Die Abbremsung der Rotation muss dabei nichtlinearer erfolgt sein, um die Entstehung und
@@ -430,13 +441,13 @@ da der Mond über eine vergleichsweise große Hill-Sphäre verfügt \parencite[2
 Als Hill-Sphäre wird der Bereich um einen Himmelskörper bezeichnet,
 in dem seine Anziehungskraft gegenüber anderen Körpern überwiegt .
 
-Damit die einzelnen Ringobjekte auf den Mond fallen können, müssen auf ihrer Bahn abgebremst werden.
+Damit die einzelnen Ringobjekte auf den Mond fallen können, müssen sie auf ihrer Bahn abgebremst werden.
 Dies kann einerseits durch Kollisionen zwischen den Objekten und andererseits durch die Annahme,
 einer dünnen, die Objekte abbremsende Atmosphäre, entstehen \parencite[3]{Ip_2006}.
 
-Die übrigen Monde des Saturn weisen eine Inklination, also eine Bahnneigung, von $\sim$0\degree \parencite[4]{Ip_2006}.
+Die übrigen Monde des Saturn weisen eine Inklination, also eine Bahnneigung, von $\sim$0\degree auf \parencite[4]{Ip_2006}.
 Die Inklination des Iapetus liegt währenddessen bei $\sim$7,49\degree \parencite[180]{Castillo-Rogez_2007}.
-\citeauthor{Ip_2006} bringt die Möglichkeit einer Kollision mit einem anderen Himmelskörper als Hintergrund
+\citeauthor{Ip_2006}, der Autor der Theorie, bringt die Möglichkeit einer Kollision mit einem anderen Himmelskörper als Hintergrund
 der Inklinationsanomalie und des Ringsystems auf \parencite[4]{Ip_2006}. Demnach ist der Ring nicht
 ein Überrest der Entstehung des Iapetus sondern infolge eines Impaktereignis entstanden.
 Diese Beobachtung bildet die Grundlage für die weitere Betrachtung einer impaktbedingten Entstehung des Äquatorialkamms
@@ -451,12 +462,12 @@ Diese Beobachtung bildet die Grundlage für die weitere Betrachtung einer impakt
 Um die Schwächen der vorangegangenen Theorien zu umgehen,
 wurde als eine weitere intrinsische Entstehungstheorie ein Aufwölben der Lithosphäre,
 also der äußersten Gesteinshülle eines Himmelskörpers, vorgeschlagen.
-Ausgangspunkt dieser Hypothese ist unter Anderem die komplexe und
+Ausgangspunkt dieser Hypothese ist unter anderem die komplexe und
 sich entlang des Äquatorialkamms ändernde Form der Struktur \parencite[365]{Giese_2008}.
 Insbesondere die stellenweise vorkommenden flachen Bergspitzen mit scharfen seitlichen Kanten
 lassen sich nicht durch die Theorie eines ehemaligen Ringsystems erklären
 (siehe Kapitel \ref{subsubsec:Ein uraltes Ringsystem}) \parencite[365]{Giese_2008}.
-Darüber hinaus sprechen Ausgedehnte parallel zum Kamm verlaufende Senken
+Darüber hinaus sprechen ausgedehnte parallel zum Kamm verlaufende Senken
 für eine Verformung der Lithosphäre \parencite[364]{Giese_2008}.
 
 Des Weiteren wäre bei einem aus kleinen Ringbestandteilen aufgebauten Äquatorialkamm eine Hangneigung
@@ -464,8 +475,8 @@ nahe der maximalen Steigung zu erwarten, bei der ein solcher Berghang noch stabi
 Dies ist gerade bei den unteren Hängen nicht der Fall und die geringe Hangneigung spricht daher eher 
 für einen intrinsischen Mechanismus \parencite[364]{Giese_2008}.
 
-Als möglicher Mechanismus wird ein zwei-Zellen-Konvektionsmuster, bei dem tiefer liegendes Gestein in Richtung
-Oberfläche transportiert wird und dadurch die Lithosphäre zu einem
+Als möglicher Mechanismus wird ein Zwei-Zellen-Konvektionsmuster vorgeschlagen \parencite[64, 65, 68]{Czechowski_2008}.
+Bei diesem wird tiefer liegendes Gestein in Richtung Oberfläche transportiert, welches die Lithosphäre zum beobachtbaren
 äquatoriellen Bergsystem aufwölbt \parencite[64, 65, 68]{Czechowski_2008}.
 Angetrieben wird die Konvektion durch im Inneren des Iapetus freigesetzte Wärme,
 die überwiegend aus radioaktiven Zerfall resultiert \parencite[64]{Czechowski_2008}.
@@ -491,7 +502,7 @@ Infolge des Abbremsens verringerte sich der Abstand zwischen Iapetus und Subsate
 bis der Subsatellit die Roche-Grenze des Iapetus unterschritt \parencite[6]{Dombard_2012}.
 Als Roche-Grenze wird der Abstand bezeichnet, bei dessen Unterschreiten ein Himmelskörper aufgrund
 der vom größeren Körper ausgeübten Gezeitenkraft auseinanderbricht. 
-Der Subsatellit wurde hierdurch in einzelne Bruchstücken zerlegt,
+Der Subsatellit wurde hierdurch in einzelne Bruchstücke zerlegt,
 welche ein Ringsystem um den Iapetus bilden \parencite[6]{Dombard_2012}.
 Wie im Szenario von \citeauthor{Ip_2006} (siehe Kapitel \ref{subsubsec:Ein uraltes Ringsystem})
 stürzen die Ringbestandteile auf die Oberfläche des Iapetus und bilden den Äquatorialkamm \parencite[6]{Dombard_2012}.
@@ -502,12 +513,12 @@ eines großen Einschlagereignisses gebildet haben \parencite[5]{Dombard_2012}.
 Nach dem zweiten Szenario könnte es sich bei dem Subsatelliten um einen anderen Saturnmond
 gehandelt haben, der von Iapetus eingefangen wurde \parencite[5]{Dombard_2012}.
 Ein solches Einfangen ist aufgrund der dafür notwendigen relativ geringen Änderung
-der Relativgeschwindigkeit \parencite[5]{Dombard_2012}.
+der Relativgeschwindigkeit möglich \parencite[5]{Dombard_2012}.
 
 Durch die Äquatoriale Lage eines Ringsystems kann erklärt werden,
 ausschließlich am Äquator vorkommt \parencite[6]{Dombard_2012}.
 Auch das seltene Auftreten eines solchen Kamms lässt sich mit diesem Modell durch
-die große Entfernung des Iapetus zum Saturn erklärt werden.
+die große Entfernung des Iapetus zum Saturn erklären.
 Dadurch konnte der Subsatellit über eine längere Zeit in einer Umlaufbahn um den Iapetus existieren,
 ohne dass seine Bahn durch die gravitative Wechselwirkung mit dem Saturn zu einem
 Übergang in eine Umlaufbahn um den Saturn führte \parencite[6]{Dombard_2012}.
@@ -528,7 +539,8 @@ Aktiver Vulkanismus ist nicht nur auf der Erde nachgewiesen
 (siehe Kapitel \ref{subsec:Vulkanismus auf der Erde}),
 sondern auch auf der Venus und dem Jupitermond Io
 (siehe Kapitel\ref{subsec:Vulkanismus auf dem Io}) \parencite[687]{Sigurdsson_2015}.
-Auf dem Mars befinden sich die mit Vulkanen wie dem Olympus Mons höchsten bekanntenVulkane des Sonnensystems
+Auf dem Mars befinden sich die mit Vulkanen, wie dem Olympus Mons,
+die höchsten bekannten Vulkane des Sonnensystems
 (siehe Kapitel \ref{subsec:Vulkanismus auf dem Mars}) \parencite[687]{Sigurdsson_2015}.
 Auch auf der Venus gibt es Anzeichen von gegenwärtigen vulkanischen Prozessen
 (siehe Kapitel \ref{subsec:Vulkanismus auf der Venus}).
@@ -548,13 +560,13 @@ schmilzt das Gestein mit der geringsten Schmelztemperatur und
 sammelt sich als Magma in größeren Reservoirs \parencite{USGS_Volcanism}.
 Überdruck in diesen Kammern kann dazu führen, dass geschmolzenes Gestein durch strukturell
 schwache Zonen und Risse im Gestein bis an die Oberfläche steigt \parencite{USGS_Volcanism}.
-Sobald das Magma an die Erdoberfläche erreicht, wird sie Lava genannt.
+Sobald das Magma die Erdoberfläche erreicht, wird sie Lava genannt.
 Das Austreten von Magma, beziehungsweise Lava, an die Oberfläche wird als Eruption bezeichnet.
 Diese kann sowohl explosiv unter Bildung von Lavafontänen, als auch nicht-explosiv durch das Herausfließen 
 von Lava aus dem Gestein geschehen \parencite{USGS_Volcanism}.
 
 Der Vulkan entsteht durch fortschreitende Ablagerung von bei der Eruption gefördertem Material \parencite{USGS_Volcanism}.
-Ein Beispiel hierfür ist die vulkanisch Inselkette Hawaii,
+Ein Beispiel hierfür ist die vulkanische Inselkette Hawaii,
 deren Vulkane sich bis zu 9~km über den Meeresboden erheben \parencite{Fraknoi_2022}.
 
 
@@ -575,7 +587,7 @@ wodurch auch für den Vulkanismus vollständig andere Bedingungen gegeben sind.
 
 Rund 80\% der venusischen Oberfläche bestehen aus vulkanischem Material \parencite[67]{Ivanov_2013}.
 Dieser hohe Anteil wird mit einer globalen Oberflächenerneuerung in Verbindung gebracht, einem starken vulkanischen Event,
-bei dem fast die gesamte Oberfläche der Venus bis von 10-100~Millionen Jahren erneuert wurde \parencite[42]{Nimmo_1998}.
+bei dem fast die gesamte Oberfläche der Venus bis 10-100~Millionen Jahren vor heute erneuert wurde \parencite[42]{Nimmo_1998}.
 Ob diese Oberflächenerneuerung durch ein vergleichsweise kurz andauerndes Extremereignis oder
 durch einen länger andauernden Prozess erfolgte, ist nicht feststellbar \parencite[40]{Nimmo_1998}.
 Fest steht jedoch, dass die geologische Aktivität der Venus seit diesem Zeitraum abgenommen hat \parencite[40]{Nimmo_1998}.
@@ -583,17 +595,17 @@ Fest steht jedoch, dass die geologische Aktivität der Venus seit diesem Zeitrau
 Vulkanische Ebenen stellen die weitverbreitetsten vulkanischen Strukturen auf der Venus dar \parencite[68]{Ivanov_2013}.
 Darüber hinaus sind zahlreiche Schildvulkane bekannt, die im Vergleich zur Erde deutlich größer und
 mit einer Hangsteigung von weniger als 3\degree im Durchschnitt flacher sind \parencite[2]{Mason_2025}.
-Ein Beispiel, dass diese geringe Steigung aufweist, ist der der Ozza Mons.
-Mit einer Höhe von 7,5~km zählt er zu den mittelhohen Vulkan der Venus,
+Ein Beispiel, dass diese geringe Steigung aufweist, ist der Ozza Mons.
+Mit einer Höhe von 7,5~km zählt er zu den mittelhohen Vulkane der Venus,
 weist jedoch eine horizontale Ausdehnung von 1000$\times$800~km auf \parencite[12]{Mason_2025}.
 Der Maat Mons ist mit etwa der doppelten Höhe des Ozza Mons der höchste Vulkan der Venus,
 besitzt jedoch eine geringer laterale Ausdehnung \parencite[13]{Mason_2025}.
 
-Das große Ausmaß der Schildvulkane auf der Venus ist mit der die Abwesenheit ausgeprägter Plattentektonik,
+Das große Ausmaß der Schildvulkane auf der Venus ist mit der Abwesenheit ausgeprägter Plattentektonik,
 wie der auf der Erde, erklärbar \parencite[2f.]{Mason_2025}.
 Die vergleichsweise geringe Dichte der Lithosphäre erschwert Subduktionsprozesse,
 also ein Abtauchen eines Teils der Lithosphäre unter einen Anderen \parencite[40]{Nimmo_1998}.
-Infolge Dessen kann sich die Lithosphäre nur langsam über die stationären Hotspots bewegen,
+Infolge dessen kann sich die Lithosphäre nur langsam über die stationären Hotspots bewegen,
 weshalb über längere Zeit vulkanisches Material aus Vulkanen austreten kann \parencites[17]{Mason_2025}[2f.]{Nimmo_1998}.
 
 Die Venus gilt heute als vulkanisch aktiver Himmelskörper \parencite[607]{Smrekar_2010}.
@@ -613,16 +625,15 @@ was die Annahme einer anhaltenden vulkanischen Aktivität unterstützt \parencit
 
 \mysubsection{Vulkanismus auf dem Mars}
 
-Der Vulkanismus auf dem Mars insbesondere durch seine großen Schildvulkane geprägt, die aufgrund des Fehlens
+Der Vulkanismus auf dem Mars ist insbesondere durch seine großen Schildvulkane geprägt, die aufgrund des Fehlens
 einer ausgeprägten Plattentektonik außergewöhnliche Größen erreichen können \parencite{encyclopedia_2001}.
-Da sich die Oberfläche des Mars sich nicht gegenüber Quelle des aufsteigenden Magmas bewegt,
-waren Ausbrüche so lange möglich,
+Da sich die Oberfläche des Mars nicht gegenüber Hotspots bewegt, waren Ausbrüche möglich,
 bis das Abkühlen des Planeten die vulkanische Aktivität einschränkte \parencite{encyclopedia_2001}.
 Die meisten der bekannten marsianischen Vulkanen finden sich in der Tharsis- und der Elysium-Region
 (siehe Abb.\ref{pic:Mars}).
 
 Der Olympus Mons ist mit einer Höhe von 27~km der höchste bekannte Vulkan des Sonnensystems \parencite{encyclopedia_2001}.
-Seine Entstanden liegt in der vulkanischen Frühphase des Mars
+Seine Entstehung liegt in der vulkanischen Frühphase des Mars
 vor  $\sim$3,6 Milliarden Jahren \parencite[55]{Werner_2009}.
 DerVulkanschild des Olympus Mons erstreckt sich über $\sim$600$\times$800~km \parencite[50]{Werner_2009}.
 Mit einem Durchmesser von $\sim$1100~km weist lediglich der Vulkanschild
@@ -634,19 +645,20 @@ Mit dem zunehmenden Abkühlen des Planetenkerns brach das Magnetfeld durch zuneh
 der vorherige globale Vulkanismus nahm ein Ende \parencite[64]{Werner_2009}.
 
 Lokal kam es allerdings auch vor geologisch kürzerer Zeit noch zu vulkanischen Prozessen.
-Der bislang jüngste am Olympus Mons entdeckt Lavastrom ist wird auf ein Alter von $\sim$2 Millionen Jahren geschätzt
+Der bislang jüngste am Olympus Mons entdeckte Lavastrom wird auf ein Alter von $\sim$2 Millionen Jahren geschätzt
 \parencites[63]{Werner_2009}[1]{Schumacher_2007}.
 Der Vulkanismus auf dem Mars kann daher nicht als vollständig erloschen betrachtet werden \parencite[63]{Schumacher_2007}.
 
 
 
-\begin{center}
-    \begin{figure}
-        \includegraphics[width=\textwidth]{../Quellen/Bilder/Mars.png}
-        \caption{Karte des Mars mit eingezeichneten vulkanischen Strukturen. \parencite[1180]{Robbins_2011}.}
-        \label{pic:Mars}
-    \end{figure}
-\end{center}
+
+\begin{figure}[tbp]
+    \centering
+    \includegraphics[width=\textwidth]{../Quellen/Bilder/Mars.png}
+    \caption{Karte des Mars mit eingezeichneten vulkanischen Strukturen. \citereset\parencite[1180]{Robbins_2011}.}
+    \label{pic:Mars}
+\end{figure}
+
 
 
 
@@ -660,9 +672,9 @@ Der Vulkanismus auf dem Mars kann daher nicht als vollständig erloschen betrach
 
 Der Jupitermond Io ist der vulkanisch aktivste Himmelskörper des Sonnensystems \parencite[1]{Prajan_2025}.
 Er ist der innerste der vier von Galileo Galilei entdeckten Galileischen Monde
-und zugleich der drittgrößte aller Jupitermond \parencite[1]{Prajan_2025}.
+und zugleich der drittgrößte aller Jupitermonde \parencite[1]{Prajan_2025}.
 
-Der Vulkanismus des Ios äußert sich unter Anderem in der Bildung mehrere hundert Kilometer hoher
+Der Vulkanismus des Ios äußert sich unter anderem in der Bildung mehrere hundert Kilometer hoher
 Gas- und Staubwolken \parencite[505, 509, 517]{Geissler_2008}.
 Diese Wolken mit Partikelgrößen von 80-120~nm erscheinen meist blau (siehe Abb. \ref{pic:Io}), während
 seltenere Ausstöße größeren Partikeln eine gelbliche Farbe hervorrufen können \parencite[513, 514]{Geissler_2008}.
@@ -677,31 +689,33 @@ liegt die Entstehung der Prometheus-Typ-Ausstöße an oberflächlichen Lavaströ
 welche flüchtige Bestandteile der Oberfläche verdampfen lassen und
 die charakteristische Eruptionswolke erzeugen \parencite[240]{Spencer_2007}.
 
-Die für die Aufrechterhaltung des Vulkanismus auf der Vulkanismus erforderliche Energie entsteht
+Die für die Aufrechterhaltung des Vulkanismus erforderliche Energie entsteht
 durch Wechselwirkung der Gezeitenkräfte mit den benachbarten Monden Ganymed und Europa \parencite[1]{Kleer_2024}.
 Diese drei inneren der Galileischen Monde stehen in einer Bahnresonanz,
 bei der ihre Umlaufzeiten in einem festen Verhältnis zueinander stehen und
 sich bestimmte Bahnkonstellationen sich regelmäßig wiederholen \parencites[1]{Kleer_2024}[1]{Veenstra_2026}.
 Die Bahnresonanzen von Io, Europa und Ganymed gehören zu den Laplace-Resonanzen,
 da ihre Umlaufzeiten in einem niedrigstelligem, ganzzahligem Verhältnis von 4:2:1 stehen \parencite[1]{Veenstra_2026}.
-Diese Resonanz trägt dazu bei, die Umlaufbahn von Io exzentrisch, also von einer Kreisbahn abweichend, zu halten,
-wodurch sich dieser durch periodisch variierende Gezeitenkräfte aufheizt \parencites[1]{Kleer_2024}[1]{Veenstra_2026}.
-
-
-
-\begin{center}
-    \begin{figure}
-        \includegraphics[width=\textwidth]{../Quellen/Bilder/Io.jpg}
-        \caption{Aufnahme einer Gaswolke bei einem Vulkanausbruch auf dem Jupitermond Io. \citep{pic:Io}.}
-        \label{pic:Io}
-    \end{figure}
-\end{center}
+Diese Resonanz trägt dazu bei, die Umlaufbahn von Io exzentrisch,
+also von einer Kreisbahn abweichend, zu halten \parencite[1]{Veenstra_2026}.
+Hierdurch heizt sich dieser durch periodisch variierende Gezeitenkräfte auf \parencites[1]{Kleer_2024}.
 
 
 
 
+\begin{figure}[tbp]
+    \centering
+    \includegraphics[width=\textwidth]{../Quellen/Bilder/Io.jpg}
+    \caption{Aufnahme einer Gaswolke bei einem Vulkanausbruch auf dem Jupitermond Io. \citereset\citep{pic:Io}.}
+    \label{pic:Io}
+\end{figure}
 
 
+
+
+
+
+\FloatBarrier
 
 \mysection{Diskussion und Fazit}
 
@@ -714,7 +728,7 @@ Eigenschaften des Himmelskörpers selbst, als auch von extrinsischen Einflüssen
 Die Betrachtung der Zentralberge und Zentralringe am Beispiel des Tooting-Krater und
 dem irdischen Chicxulub-Krater zeigt, dass die grundlegenden physikalischen Mechanismen der
 Kraterbildung unabhängig vom jeweiligen Himmelskörper auftreten können.
-Die genaue strukturelle Ausprägung ist aber unter Anderem von der Masse des Himmelskörpers und
+Die genaue strukturelle Ausprägung ist aber unter anderem von der Masse des Himmelskörpers und
 dessen Gesteinsbeschaffenheit abhängt.
 
 Am Beispiel des Äquatorialkamms des Saturnmondes Iapetus zeigt sich hingegen der Einfluss äußerer
